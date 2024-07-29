@@ -16,7 +16,7 @@
       />
       <card v-else-if="item.type === 'card'" :ref="item.id" :item="item">
         <!-- #ifndef MP-WEIXIN -->
-        <ItemView :key="item.id" :props-items="item.items" />
+        <render :key="item.id" :props-items="item.items" />
         <!-- #endif -->
       </card>
     </view>
@@ -29,7 +29,7 @@ import local from "../localstorage";
 import Card from './card'
 // import { transformStyle } from "../set-style"
 export default {
-  name: "ItemView",
+  name: "Render",
   components: {
     Card
   },

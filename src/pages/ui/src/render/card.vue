@@ -2,7 +2,7 @@
   <view>
     <slot>
       <!-- #ifdef MP-WEIXIN -->
-      <rendering :props-items="item.items" />
+      <render :props-items="item.items" />
       <!-- #endif -->
     </slot>
   </view>
@@ -11,13 +11,13 @@
 <script>
 import { transformStyle } from "../set-style.ts"
 // #ifdef MP-WEIXIN
-import Rendering from "./index"
+import Render from "./index"
 // #endif
 export default {
   name: "CubeCard",
   // #ifdef MP-WEIXIN
   components: {
-    Rendering
+    Render
   },
   // #endif
   props: {
