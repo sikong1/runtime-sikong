@@ -18,7 +18,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tencent/tmagic-editor.git"
+    "url": "https://github.com/sikong1/runtime-sikong.git"
   },
   "dependencies": {
     "qrcode": "^1.5.0"
