@@ -1,0 +1,64 @@
+page {
+  --cdm-avatar-border-color: var(--cdm-theme-color-white); // 边框颜色
+  --cdm-avatar-bg-color: #{$cube--gray-2}; // 背景色
+  --cdm-avatar-icon-color: #{$cube--white-1}; // 图标头像的图标颜色
+  --cdm-avatar-text-font-color: #{$cube--white-1}; // 文字头像的字体颜色
+  --cdm-avatar-title-font-color: var(--cdm-theme-font-color-principal); // 标题字体颜色
+  --cdm-avatar-title-font-weight: var(--cdm-theme-font-weight-bold); // 标题字体字重
+  --cdm-avatar-description-font-color: var(--cdm-theme-font-color-secondary); // 简介字体颜色
+  --cdm-avatar-mini-size: 24px; // 迷你尺寸宽高
+  --cdm-avatar-mini-border-radius: var(--cdm-theme-border-radius-base); // 迷你尺寸边框圆角
+  --cdm-avatar-mini-border-width: var(--cdm-theme-border-width-base); // 迷你尺寸边框宽度
+  --cdm-avatar-mini-icon-size: 8px; // 迷你尺寸图标大小
+  --cdm-avatar-mini-text-font-size: var(--cdm-theme-font-size-caption); // 迷你尺寸字体大小
+  --cdm-avatar-mini-title-margin-bottom: var(--cdm-theme-stacking-mini); // 迷你尺寸标题下外边距
+  --cdm-avatar-mini-title-margin-left: var(--cdm-theme-gap-sm); // 迷你尺寸标题左外边距
+  --cdm-avatar-mini-title-font-size: var(--cdm-theme-font-size-caption); // 迷你尺寸标题字体大小
+  --cdm-avatar-mini-description-font-size: var(--cdm-theme-font-size-caption); // 迷你尺寸描述字体大小
+  --cdm-avatar-small-size: 32px; // 小尺寸宽高
+  --cdm-avatar-small-border-radius: var(--cdm-theme-border-radius-base); // 小尺寸边框圆角
+  --cdm-avatar-small-border-width: var(--cdm-theme-border-width-base); // 小你尺寸边框宽度
+  --cdm-avatar-small-icon-size: 10px; // 小尺寸图标大小
+  --cdm-avatar-small-text-font-size: var(--cdm-theme-font-size-caption); // 小尺寸字体大小
+  --cdm-avatar-small-title-margin-bottom: var(--cdm-theme-stacking-mini); // 小尺寸标题下外边距
+  --cdm-avatar-small-title-margin-left: var(--cdm-theme-gap-sm); // 小尺寸标题左外边距
+  --cdm-avatar-small-title-font-size: var(--cdm-theme-font-size-caption); // 小尺寸标题字体大小
+  --cdm-avatar-small-description-font-size: var(--cdm-theme-font-size-caption); // 小尺寸描述字体大小
+  --cdm-avatar-medium-size: 40px; // 中等尺寸宽高
+  --cdm-avatar-medium-border-radius: var(--cdm-theme-border-radius-base); // 中等尺寸边框圆角
+  --cdm-avatar-medium-border-width: var(--cdm-theme-border-width-base); // 中等尺寸边框宽度
+  --cdm-avatar-medium-icon-size: 14px; // 中等尺寸图标大小
+  --cdm-avatar-medium-text-font-size: var(--cdm-theme-font-size-caption); // 中等尺寸字体大小
+  --cdm-avatar-medium-title-margin-bottom: var(--cdm-theme-stacking-mini); // 中等尺寸标题下外边距
+  --cdm-avatar-medium-title-margin-left: var(--cdm-theme-gap-sm); // 中等尺寸标题左外边距
+  --cdm-avatar-medium-title-font-size: var(--cdm-theme-font-size-subhead); // 中等尺寸标题字体大小
+  --cdm-avatar-medium-description-font-size: var(--cdm-theme-font-size-caption); // 中等尺寸描述字体大小
+  --cdm-avatar-large-size: 48px; // 大尺寸宽高
+  --cdm-avatar-large-border-radius: var(--cdm-theme-border-radius-base); // 大尺寸边框圆角
+  --cdm-avatar-large-border-width: var(--cdm-theme-border-width-bold); // 大尺寸边框宽度
+  --cdm-avatar-large-icon-size: 18px; // 大尺寸图标大小
+  --cdm-avatar-large-text-font-size: var(--cdm-theme-font-size-caption); // 大尺寸字体大小
+  --cdm-avatar-large-title-margin-bottom: var(--cdm-theme-stacking-xs); // 大尺寸标题下外边距
+  --cdm-avatar-large-title-margin-left: var(--cdm-theme-gap-sm); // 大尺寸标题左外边距
+  --cdm-avatar-large-title-font-size: var(--cdm-theme-font-size-subhead); // 大尺寸标题字体大小
+  --cdm-avatar-large-description-font-size: var(--cdm-theme-font-size-caption); // 大尺寸描述字体大小
+  --cdm-avatar-xlarge-size: 64px; // 超大尺寸宽高
+  --cdm-avatar-xlarge-border-radius: var(--cdm-theme-border-radius-base); // 超大尺寸边框圆角
+  --cdm-avatar-xlarge-border-width: var(--cdm-theme-border-width-bold); // 超大尺寸边框宽度
+  --cdm-avatar-xlarge-icon-size: 22px; // 超大尺寸图标大小
+  --cdm-avatar-xlarge-text-font-size: var(--cdm-theme-font-size-caption); // 超大尺寸字体大小
+  --cdm-avatar-xlarge-title-margin-bottom: var(--cdm-theme-stacking-xs); // 超大尺寸标题下外边距
+  --cdm-avatar-xlarge-title-margin-left: var(--cdm-theme-gap-sm); // 超大尺寸标题左外边距
+  --cdm-avatar-xlarge-title-font-size: var(--cdm-theme-font-size-subhead); // 超大尺寸标题字体大小
+  --cdm-avatar-xlarge-description-font-size: var(--cdm-theme-font-size-caption); // 超大尺寸描述字体大小
+  --cdm-avatar-2xlarge-size: 72px; // 2xl 尺寸宽高
+  --cdm-avatar-2xlarge-border-radius: var(--cdm-theme-border-radius-base); // 2xl 尺寸边框圆角
+  --cdm-avatar-2xlarge-border-width: var(--cdm-theme-border-width-bold); // 2xl 尺寸边框宽度
+  --cdm-avatar-2xlarge-icon-size: 26px; // 2xl 尺寸图标大小
+  --cdm-avatar-2xlarge-text-font-size: var(--cdm-theme-font-size-h4); // 2xl 尺寸字体大小
+  --cdm-avatar-2xlarge-title-margin-bottom: var(--cdm-theme-stacking-xs); // 2xl 尺寸标题下外边距
+  --cdm-avatar-2xlarge-title-margin-left: var(--cdm-theme-gap-sm); // 2xl 尺寸标题左外边距
+  --cdm-avatar-2xlarge-title-font-size: var(--cdm-theme-font-size-subhead); // 2xl 尺寸标题字体大小
+  --cdm-avatar-2xlarge-description-font-size: var(--cdm-theme-font-size-body); // 2xl 尺寸描述字体大小
+  --cdm-avatar-group-offset: var(--cdm-theme-gap-sm); // 头像组向左偏移距离
+}

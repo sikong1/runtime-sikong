@@ -1,0 +1,116 @@
+/*
+ * 全局 mixin 变量
+ */
+@mixin border($color: palette(gold), $radius: $border-radius) {
+  border: {
+    color: $color;
+    radius: $radius;
+    width: 1px;
+    style: solid;
+  }
+}
+
+@mixin relative-position($type: absolute, $top: 50%, $left: 50%) {
+  position: $type;
+  top: $top;
+  left: $left;
+  transform: translate($left * (-1), $top * (-1));
+}
+
+@mixin space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+// TODO rename
+@mixin flex($direction: row) {
+  /* #ifndef APP-NVUE */
+  display: flex;
+  /* #endif */
+  flex-direction: $direction;
+}
+
+// flex 实现水平垂直居中
+@mixin flex-center($direction: row) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+}
+
+// flex 实现垂直居中
+@mixin flex-vertical-center() {
+  display: flex;
+  align-items: center;
+}
+
+// flex 实现垂直居中两端对齐
+@mixin flex-justify-center() {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin square($size) {
+  width: $size;
+  height: $size;
+}
+
+@mixin material-shadow {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+@mixin pseudo-border($width: 1px, $color: #000) {
+  &.active {
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      border-bottom: $width solid $color;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+
+// 字体大小，颜色
+@mixin font-sc($size, $color) {
+  font-size: $size;
+  color: $color;
+}
+
+// 缩放字体
+@mixin font-scale($scale: 0.8, $origin: 0) {
+  transform: scale($scale);
+  -webkit-transform-origin-x: $origin;
+}
+
+// 宽高
+@mixin wh($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+// 角标
+@mixin corner-tag($top, $right) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: $top;
+  right: $right;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: $red;
+  font-size: 1rem;
+  color: $gray-0;
+  font-family: Helvetica;
+  transform: scale(0.8);
+}
+
+@mixin remove-icon-parent-height($font: 1px, $line: 1px) {
+  font-size: $font;
+  line-height: $line;
+}

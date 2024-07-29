@@ -1,0 +1,9 @@
+page {
+  --cdm-picker-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-picker-option-padding-vertical: var(--cdm-theme-spacing-16); // 选择区域容器左右内边距
+  --cdm-picker-option-border-width: var(--cdm-theme-border-width-base); // 选择区域容器边框宽度
+  --cdm-picker-option-border-color: transparent; // 选择区域容器边框颜色
+  --cdm-picker-option-item-font-size: var(--cdm-theme-font-size-body); // 单个选项字体大小
+  --cdm-picker-option-item-font-color: var(--cdm-theme-font-color-secondary); // 单个选项字体颜色
+  --cdm-picker-option-item-active-font-color: var(--cdm-theme-font-color-principal); // 单个选项选中状态字体颜色
+}

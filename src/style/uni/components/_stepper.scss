@@ -1,0 +1,31 @@
+page {
+  --cdm-stepper-height: 32px; // 高度
+  --cdm-stepper-border-width: 0; // 边框宽度
+  --cdm-stepper-border-radius: var(--cdm-theme-border-radius-base); // 边框圆角
+  --cdm-stepper-border-color: transparent; // 边框颜色
+  --cdm-stepper-input-width: 40px; // 输入框宽度
+  --cdm-stepper-input-padding-vertical: var(--cdm-theme-spacing-4); // 输入框左右内边距
+  --cdm-stepper-input-border-width: var(--cdm-theme-border-width-base); // 输入框边框宽度
+  --cdm-stepper-input-border-radius: 0; // 输入框边框圆角
+  --cdm-stepper-input-border-color: transparent; // 输入框边框颜色
+  --cdm-stepper-input-bg-color: var(--cdm-theme-bg-color-base); // 输入框背景色
+  --cdm-stepper-input-font-size: var(--cdm-theme-font-size-caption); // 输入框字体大小
+  --cdm-stepper-input-font-color: var(--cdm-theme-font-color-principal); // 输入框字体颜色
+  --cdm-stepper-input-font-weight: var(--cdm-theme-font-weight-bold); // 输入框字体字重
+  --cdm-stepper-button-width: 32px; // 按钮宽度
+  --cdm-stepper-button-margin: 0; // 按钮和输入框的间距
+  --cdm-stepper-button-border-width: var(--cdm-theme-border-width-base); // 按钮边框宽度
+  --cdm-stepper-button-border-radius: 0; // 按钮边框圆角
+  --cdm-stepper-button-border-color: transparent; // 按钮边框颜色
+  --cdm-stepper-button-bg-color: var(--cdm-theme-bg-color-base); // 按钮背景色
+  --cdm-stepper-button-icon-size: 14px; // 按钮图标大小
+  --cdm-stepper-button-minus-icon-color: var(--cdm-theme-font-color-principal); // 减号按钮图标颜色
+  --cdm-stepper-button-plus-icon-color: var(--cdm-theme-color-primary); // 加号按钮图标颜色
+  --cdm-stepper-button-active-bg-color: var(--cdm-theme-bg-color-base-active); // 按钮激活状态背景色
+  --cdm-stepper-disabled-input-border-color: transparent; // 禁用状态输入框边框颜色
+  --cdm-stepper-disabled-input-bg-color: var(--cdm-theme-bg-color-base-disabled); // 禁用状态输入框背景色
+  --cdm-stepper-disabled-input-font-color: var(--cdm-theme-font-color-disabled); // 禁用状态输入框字体颜色
+  --cdm-stepper-disabled-button-border-color: transparent; // 禁用状态按钮边框颜色
+  --cdm-stepper-disabled-button-bg-color: var(--cdm-theme-bg-color-base-disabled); // 禁用状态按钮背景色
+  --cdm-stepper-disabled-button-icon-color: var(--cdm-theme-font-color-disabled); // 禁用状态按钮图标颜色
+}

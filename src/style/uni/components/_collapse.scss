@@ -1,0 +1,14 @@
+page {
+  --cdm-collapse-border-width: var(--cdm-theme-border-width-base); // 上下边框宽度
+  --cdm-collapse-border-color: var(--cdm-theme-border-color-base); // 上下边框颜色
+  --cdm-collapse-item-expanded-icon-color: var(--cdm-theme-color-primary); // 展开状态右侧图标颜色
+  --cdm-collapse-content-padding-vertical: var(--cdm-theme-spacing-16); // 内容区左右内边距
+  --cdm-collapse-content-padding-horizontal: var(--cdm-theme-spacing-8); // 内容区上下内边距
+  --cdm-collapse-content-border-bottom-width: var(--cdm-theme-border-width-base); // 内容区展开状态下边框宽度
+  --cdm-collapse-content-border-color: var(--cdm-theme-border-color-light); // 内容区展开状态下边框颜色
+  --cdm-collapse-content-bg-color: var(--cdm-theme-bg-color-white); // 内容区背景色
+  --cdm-collapse-content-font-size: var(--cdm-theme-font-size-body); // 内容区字体大小
+  --cdm-collapse-content-font-color: var(--cdm-theme-font-color-principal); // 内容区字体颜色
+  --cdm-collapse-content-font-weight: var(--cdm-theme-font-weight-regular); // 内容区字体字重
+  --cdm-collapse-content-line-height: var(--cdm-theme-font-line-height-body); // 内容区字体行高
+}

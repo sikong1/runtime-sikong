@@ -1,0 +1,22 @@
+page {
+  --cdm-form-item-padding-vertical: var(--cdm-theme-spacing-16); // 表单项左右内边距
+  --cdm-form-item-padding-horizontal: var(--cdm-theme-spacing-12); // 表单项上下内边距
+  --cdm-form-item-border-bottom-width: var(--cdm-theme-border-width-base); // 表单项下边框宽度
+  --cdm-form-item-border-color: var(--cdm-theme-border-color-light); // 表单项下边框颜色
+  --cdm-form-item-bg-color: transparent; // 表单项背景色
+  --cdm-form-item-title-margin-right: var(--cdm-theme-gap-base); // 水平排列模式下表单项标题右外边距
+  --cdm-form-item-title-margin-bottom: var(--cdm-theme-stacking-sm); // 竖直排列模式下表单项标题下外边距
+  --cdm-form-item-title-width: 76px; // 表单项标题宽度
+  --cdm-form-item-title-font-size: var(--cdm-theme-font-size-body); // 表单项标题字体大小
+  --cdm-form-item-title-font-color: var(--cdm-theme-font-color-principal); // 表单项标题字体颜色
+  --cdm-form-item-title-font-weight: var(--cdm-theme-font-weight-regular); // 表单项标题字体字重
+  --cdm-form-item-title-line-height: var(--cdm-theme-font-line-height-body); // 表单项标题字体行高
+  --cdm-form-item-icon-margin: var(--cdm-theme-icon-margin); // 表单项图标和文字间距
+  --cdm-form-item-icon-size: var(--cdm-theme-font-size-subhead); // 表单项图标大小
+  --cdm-form-item-icon-color: var(--cdm-theme-font-color-secondary); // 表单项图标颜色
+  --cdm-form-item-disabled-title-font-color: var(--cdm-theme-font-color-disabled); // 表单项禁用状态标题字体颜色
+  --cdm-form-item-disabled-icon-color: var(--cdm-theme-font-color-disabled); // 表单项禁用状态图标颜色
+  --cdm-form-item-error-message-font-size: var(--cdm-theme-font-size-body); // 表单项校验失败提示字体大小
+  --cdm-form-item-error-message-font-color: var(--cdm-theme-color-danger); //  表单项校验失败提示字体颜色
+  --cdm-form-item-error-message-line-height: var(--cdm-theme-font-line-height-body); // 表单项校验失败提示字体行高
+}

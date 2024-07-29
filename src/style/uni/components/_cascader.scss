@@ -1,0 +1,22 @@
+page {
+  --cdm-cascader-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-cascader-header-height: var(--cdm-theme-header-height); // 顶部高度
+  --cdm-cascader-header-padding-vertical: var(--cdm-theme-spacing-16); // 顶部左右内边距
+  --cdm-cascader-header-bg-color: var(--cdm-theme-bg-color-white); // 顶部背景色
+  --cdm-cascader-header-font-size: var(--cdm-theme-header-font-size); // 顶部字体大小
+  --cdm-cascader-header-font-color: var(--cdm-theme-header-font-color); // 顶部字体颜色
+  --cdm-cascader-header-font-weight: var(--cdm-theme-font-weight-bold); // 顶部字体字重
+  --cdm-cascader-header-icon-size: var(--cdm-theme-close-icon-size); // 顶部图标大小
+  --cdm-cascader-header-icon-color: var(--cdm-theme-close-icon-color); // 顶部图标颜色
+  --cdm-cascader-content-height: 260px; // 列表区域默认高度
+  --cdm-cascader-content-padding-vertical: var(--cdm-theme-spacing-16); // 列表区域左右内边距
+  --cdm-cascader-content-padding-horizontal: var(--cdm-theme-spacing-8); // 列表区域上下内边距
+  --cdm-cascader-content-bg-color: var(--cdm-theme-bg-color-white); // 列表区域背景色
+  --cdm-cascader-content-item-height: 42px; // 单个列表高度
+  --cdm-cascader-content-item-font-size: var(--cdm-theme-font-size-body); // 单个列表字体大小
+  --cdm-cascader-content-item-font-color: var(--cdm-theme-font-color-principal); // 单个列表字体颜色
+  --cdm-cascader-content-item-active-font-color: var(--cdm-theme-color-primary); // 单个列表选中状态字体颜色
+  --cdm-cascader-content-item-active-icon-size: 20px; // 单个选中状态勾选图标大小
+  --cdm-cascader-content-item-active-icon-color: var(--cdm-theme-color-primary); // 单个选中状态勾选图标颜色
+  --cdm-cascader-content-item-disabled-font-color: var(--cdm-theme-font-color-disabled); // 单个列表禁用状态字体颜色
+}

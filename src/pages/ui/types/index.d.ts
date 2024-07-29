@@ -1,0 +1,16 @@
+export { default as TMagicUiButton } from './button';
+export { default as TMagicUiContainer } from './container';
+export { default as TMagicUiImg } from './img';
+export { default as TMagicUiIteratorContainer } from './iterator-container';
+export { default as TMagicUiOverlay } from './overlay';
+export { default as TMagicUiPage } from './page';
+export { default as TMagicUiPageFragment } from './page-fragment';
+export { default as TMagicUiPageFragmentContainer } from './page-fragment-container';
+export { default as TMagicUiQRcode } from './qrcode';
+export { default as TMagicUiText } from './text';
+export { default as TMagicUiAvatar } from './avatar';
+export { default as TMagicUiCard } from './card';
+export { default as TMagicUiTip } from './tip';
+export { default as TMagicUiGrid } from "./grid";
+declare const ui: Record<string, any>;
+export default ui;

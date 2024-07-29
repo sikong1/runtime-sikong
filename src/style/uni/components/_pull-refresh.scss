@@ -1,0 +1,8 @@
+page {
+  --cdm-pull-refresh-bg-color: transparent; // 背景颜色
+  --cdm-pull-refresh-font-size: var(--cdm-theme-font-size-body); // 字体大小
+  --cdm-pull-refresh-font-color: var(--cdm-theme-font-color-secondary); // 字体颜色
+  --cdm-pull-refresh-icon-margin: var(--cdm-theme-icon-margin); // 图标和文字间距
+  --cdm-pull-refresh-icon-size: var(--cdm-theme-font-size-subhead); // 图标大小
+  --cdm-pull-refresh-icon-color: var(--cdm-theme-color-primary); // 图标颜色
+}

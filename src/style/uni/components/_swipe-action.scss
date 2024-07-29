@@ -1,0 +1,13 @@
+page {
+  --cdm-swipe-action-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-swipe-action-font-size: var(--cdm-theme-font-size-body); // 字体大小
+  --cdm-swipe-action-font-color: var(--cdm-theme-font-color-principal); // 字体颜色
+  --cdm-swipe-action-button-min-width: 72px; // 按钮最小宽度
+  --cdm-swipe-action-button-padding-vertical: var(--cdm-theme-spacing-16); // 按钮左右内边距
+  --cdm-swipe-action-button-bg-color: var(--cdm-theme-bg-color-base); // 按钮默认背景色
+  --cdm-swipe-action-button-font-size: var(--cdm-theme-font-size-subhead); // 按钮默认字体大小
+  --cdm-swipe-action-button-font-color: var(--cdm-theme-font-color-principal); // 按钮默认字体颜色
+  --cdm-swipe-action-button-icon-margin: var(--cdm-theme-icon-margin); // 按钮图标和文字间距
+  --cdm-swipe-action-button-icon-size: var(--cdm-theme-font-size-h6); // 按钮图标大小
+  --cdm-swipe-action-button-icon-color: var(--cdm-theme-font-color-principal); // 按标默认图标颜色
+}

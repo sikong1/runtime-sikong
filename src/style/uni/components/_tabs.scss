@@ -1,0 +1,29 @@
+page {
+  --cdm-tabs-height: 44px; // 高度
+  --cdm-tabs-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-tabs-item-max-width: 150px; // 标签最大宽度（仅在滚动状态下生效）
+  --cdm-tabs-item-padding-vertical: var(--cdm-theme-spacing-8); // 标签左右内边距（仅在滚动状态下生效）
+  --cdm-tabs-item-bg-color: transparent; // 标签背景色
+  --cdm-tabs-item-font-size: var(--cdm-theme-font-size-body); // 标签字体大小
+  --cdm-tabs-item-font-weight: var(--cdm-theme-font-weight-regular); // 标签字体粗细
+  --cdm-tabs-item-font-color: var(--cdm-theme-font-color-principal); // 标签字体颜色
+  --cdm-tabs-item-icon-margin: var(--cdm-theme-icon-margin); // 标签图标和文字间距
+  --cdm-tabs-item-icon-size: var(--cdm-theme-font-size-subhead); // 标签图标大小
+  --cdm-tabs-item-icon-color: var(--cdm-theme-font-color-tertiary); // 标签图标颜色
+  --cdm-tabs-item-line-width: 42px; // 标签底部横线宽度
+  --cdm-tabs-item-line-height: 3px; // 标签底部横线高度
+  --cdm-tabs-item-active-font-color: var(--cdm-theme-color-primary); // 标签选中状态字体颜色
+  --cdm-tabs-item-active-icon-color: var(--cdm-theme-color-primary); // 标签选中状态图标颜色
+  --cdm-tabs-item-active-line-color: var(--cdm-theme-color-primary); // 标签选中状态底部横线颜色
+  --cdm-tabs-item-disabled-font-color: var(--cdm-theme-font-color-disabled); // 标签禁用状态字体颜色
+  --cdm-tabs-item-disabled-icon-color: var(--cdm-theme-font-color-disabled); // 标签禁用状态图标颜色
+  --cdm-tabs-card-item-border-width: var(--cdm-theme-border-width-base); // 卡片标签外边框宽度
+  --cdm-tabs-card-item-border-radius: var(--cdm-theme-border-radius-base); // 卡片标签外边框圆角
+  --cdm-tabs-card-item-border-color: var(--cdm-theme-color-primary); // 卡片标签边框颜色
+  --cdm-tabs-card-item-active-bg-color: #{$cube--blue-0}; // 卡片标签选中状态背景色
+  --cdm-tabs-card-item-active-font-color: var(--cdm-theme-color-primary); // 卡片标签选中状态字体颜色
+  --cdm-tabs-card-item-active-icon-color: var(--cdm-theme-color-primary); // 卡片标签选中状态图标颜色
+  --cdm-tabs-card-item-disabled-bg-color: var(--cdm-theme-bg-color-white-disabled); // 卡片标签禁用状态背景色
+  --cdm-tabs-card-item-disabled-font-color: var(--cdm-theme-font-color-disabled); // 卡片标签禁用状态字体颜色
+  --cdm-tabs-card-item-disabled-icon-color: var(--cdm-theme-font-color-disabled); // 卡片标签禁用状态图标颜色
+}

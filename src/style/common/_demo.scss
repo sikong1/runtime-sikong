@@ -1,0 +1,52 @@
+$cdm-demo-page-padding-horizontal: 16px; // Demo 页面的上下内边距
+$cdm-demo-page-padding-vertical: 16px; // Demo 页面的左右内边距
+$cdm-demo-page-bg-color: #fff;
+$cdm-demo-block-margin-top: 28px; // 每个 Demo 的下外边距
+$cdm-demo-block-title-font-size: 16px;
+$cdm-demo-block-title-font-color: $cube--gray-9;
+$cdm-demo-block-desc-margin-top: 12px;
+$cdm-demo-block-desc-font-size: 14px;
+$cdm-demo-block-desc-font-color: $cube--gray-6;
+$cdm-demo-block-content-margin-top: 12px;
+
+.cube-page {
+  background-color: $cdm-demo-page-bg-color;
+  padding: $cdm-demo-page-padding-horizontal 0;
+
+  .cube-demo-block {
+    &:not(:first-child) {
+      margin-top: $cdm-demo-block-margin-top;
+    }
+    &__title {
+      display: block;
+      padding: 0 $cdm-demo-page-padding-vertical;
+      font-size: $cdm-demo-block-title-font-size;
+      color: $cdm-demo-block-title-font-color;
+    }
+    &__desc {
+      display: block;
+      padding: 0 $cdm-demo-page-padding-vertical;
+      margin-top: $cdm-demo-block-desc-margin-top;
+      font-size: $cdm-demo-block-desc-font-size;
+      color: $cdm-demo-block-desc-font-color;
+    }
+    &__content {
+      margin-top: $cdm-demo-block-content-margin-top;
+      padding: 0 $cdm-demo-page-padding-vertical;
+      // 需要顶格展示的场景
+      &.no-padding {
+        padding: 0 0;
+      }
+    }
+  }
+
+  .cube-cell-group {
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    font-size: 12px;
+    color: rgb(96, 98, 102);
+    margin-bottom: 20rpx;
+  }
+}

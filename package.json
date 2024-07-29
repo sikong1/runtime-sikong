@@ -3,6 +3,15 @@
   "version": "0.0.0",
   "scripts": {
     "serve": "uni dev:h5",
+    "build": "npm run build:libs && npm run build:page && npm run build:h5",
+    "build:libs": "tmagic entry && npm run build:config && npm run build:value && npm run build:event && npm run build:ds:libs",
+    "build:ds:libs": "npm run build:ds:config && npm run build:ds:value && npm run build:ds:event",
+    "build:config": "vite build --config build.vite.config.ts --mode config",
+    "build:value": "vite build --config build.vite.config.ts --mode value",
+    "build:event": "vite build --config build.vite.config.ts --mode event",
+    "build:ds:config": "vite build --config build.vite.config.ts --mode ds:config",
+    "build:ds:value": "vite build --config build.vite.config.ts --mode ds:value",
+    "build:ds:event": "vite build --config build.vite.config.ts --mode ds:event",
     "dev:app": "uni -p app",
     "dev:app-android": "uni -p app-android",
     "dev:app-ios": "uni -p app-ios",
@@ -44,6 +53,7 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "@cndinfo/cube-design-styles": "^0.0.3",
     "@dcloudio/uni-app": "3.0.0-4020420240722002",
     "@dcloudio/uni-app-harmony": "3.0.0-4020420240722002",
     "@dcloudio/uni-app-plus": "3.0.0-4020420240722002",
@@ -59,9 +69,16 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-4020420240722002",
     "@dcloudio/uni-mp-xhs": "3.0.0-4020420240722002",
     "@dcloudio/uni-quickapp-webview": "3.0.0-4020420240722002",
+    "@tmagic/core": "^1.4.15",
+    "@tmagic/data-source": "^1.4.15",
     "@tmagic/schema": "^1.4.14",
     "@tmagic/stage": "^1.4.14",
+    "@tmagic/utils": "^1.4.15",
+    "dijkstrajs": "^1.0.3",
+    "encode-utf8": "^2.0.0",
+    "sass": "^1.77.8",
     "vue": "^3.4.21",
+    "vue-demi": "^0.14.10",
     "vue-i18n": "^9.1.9"
   },
   "devDependencies": {

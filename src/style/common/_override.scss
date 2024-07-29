@@ -1,0 +1,22 @@
+/*
+ * 全部覆盖原始框架或组件样式
+ */
+
+page {
+  background-color: $backgroundColor;
+}
+
+// 覆盖轮播图 index dot 的颜色
+.uni-swiper-dot {
+  background-color: rgba($cube--gray-0, 0.2) !important;
+}
+.uni-swiper-dot-active {
+  background-color: $cube--gray-0 !important;
+}
+
+// 覆盖 uni-app input placeholder color
+.uni-input-wrapper {
+  .uni-input-placeholder.input-placeholder {
+    color: $cube--gray-5;
+  }
+}

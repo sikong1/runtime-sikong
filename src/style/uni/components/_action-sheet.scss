@@ -1,0 +1,37 @@
+page {
+  --cdm-action-sheet-padding-horizontal: var(--cdm-theme-spacing-16); // 上下内边距
+  --cdm-action-sheet-padding-vertical: var(--cdm-theme-spacing-16); // 左右内边距
+  --cdm-action-sheet-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-action-sheet-header-margin-bottom: var(--cdm-theme-stacking-base); // 标题下外边距
+  --cdm-action-sheet-header-padding-vertical: var(--cdm-theme-spacing-16); // 标题左右内边距
+  --cdm-action-sheet-header-font-size: var(--cdm-theme-header-font-size); // 标题字体大小
+  --cdm-action-sheet-header-font-color: var(--cdm-theme-header-font-color); // 标题字体颜色
+  --cdm-action-sheet-header-font-weight: var(--cdm-theme-font-weight-bold); // 标题字体字重
+  --cdm-action-sheet-description-margin-bottom: var(--cdm-theme-stacking-base); // 描述内容下外边距
+  --cdm-action-sheet-description-font-size: var(--cdm-theme-font-size-body); // 描述内容字体大小
+  --cdm-action-sheet-description-font-color: var(--cdm-theme-font-color-secondary); // 描述内容字体颜色
+  --cdm-action-sheet-description-font-weight: var(--cdm-theme-font-weight-regular); // 描述内容字体字重
+  --cdm-action-sheet-option-item-height: 50px; // 单个选项高度
+  --cdm-action-sheet-option-item-margin: var(--cdm-theme-stacking-sm); // 单个选项之间的间距
+  --cdm-action-sheet-option-item-padding-vertical: var(--cdm-theme-spacing-16); // 单个选项左右内边距
+  --cdm-action-sheet-option-item-border-width: var(--cdm-theme-border-width-base); // 单个选项边框宽度
+  --cdm-action-sheet-option-item-border-radius: var(--cdm-theme-border-radius-base); // 单个选项边框圆角
+  --cdm-action-sheet-option-item-border-color: var(--cdm-theme-border-color-base); // 单个选项边框颜色
+  --cdm-action-sheet-option-item-bg-color: var(--cdm-theme-bg-color-white); // 单个选项背景色
+  --cdm-action-sheet-option-item-name-font-size: var(--cdm-theme-font-size-subhead); // 单个选项标题字体大小
+  --cdm-action-sheet-option-item-name-font-color: var(--cdm-theme-color-primary); // 单个选项标题字体颜色
+  --cdm-action-sheet-option-item-name-font-weight: var(--cdm-theme-font-weight-regular); // 单个选项标题字体字重
+  --cdm-action-sheet-option-item-subname-margin-top: var(--cdm-theme-stacking-sm); // 单个选项副标题距离标题距离
+  --cdm-action-sheet-option-item-subname-font-size: var(--cdm-theme-font-size-caption); // 单个选项副标题字体大小
+  --cdm-action-sheet-option-item-subname-font-color: #{$cube--blue-3}; // 单个选项副标题字体颜色
+  --cdm-action-sheet-option-item-subname-font-weight: var(--cdm-theme-font-weight-regular); // 单个选项副标题字体字重
+  --cdm-action-sheet-option-item-active-border-color: var(--cdm-theme-border-color-base); // 激活状态下单个选项边框颜色
+  --cdm-action-sheet-option-item-active-bg-color: var(--cdm-theme-bg-color-white-active); // 激活状态下单个选项背景色
+  --cdm-action-sheet-option-item-active-name-font-color: var(--cdm-theme-color-primary-active); // 激活状态下单个选项标题字体颜色
+  --cdm-action-sheet-option-item-active-subname-font-color: var(--cdm-theme-color-primary-active); // 激活状态下单个选项副标题字体颜色
+  --cdm-action-sheet-option-item-disabled-border-color: var(--cdm-theme-border-color-disabled); // 禁用状态下单个选项边框颜色
+  --cdm-action-sheet-option-item-disabled-bg-color: var(--cdm-theme-bg-color-white); // 禁用状态下单个选项背景色
+  --cdm-action-sheet-option-item-disabled-name-font-color: var(--cdm-theme-font-color-disabled); // 禁用状态下单个选项标题字体颜色
+  --cdm-action-sheet-option-item-disabled-subname-font-color: var(--cdm-theme-font-color-disabled); // 禁用状态下单个选项副标题字体颜色
+  --cdm-action-sheet-footer-margin-top: var(--cdm-theme-stacking-base); // 底部按钮上外边距
+}

@@ -1,0 +1,13 @@
+page {
+  --cdm-watermark-width: 30%; // 文字水印宽度
+  --cdm-watermark-height: 28px; // 文字水印高度
+  --cdm-watermark-image-width: 33%; // 图片水印宽度
+  --cdm-watermark-image-height: 30px; // 图片水印高度
+  --cdm-watermark-font-size: var(--cdm-theme-font-size-caption); // 文字水印字体大小
+  --cdm-watermark-font-color: var(--cdm-theme-font-color-secondary); // 文字水印字体颜色
+  --cdm-watermark-font-line-height: var(--cdm-theme-font-line-height-caption); // 文字水印字体行高
+  --cdm-watermark-opacity: 0.3; // 透明度
+  --cdm-watermark-rotate: 45deg; // 顺时针旋转角度
+  --cdm-watermark-column-gap: var(--cdm-theme-gap-sm); // 列间距
+  --cdm-watermark-row-gap: var(--cdm-theme-stacking-sm); // 行间距
+}

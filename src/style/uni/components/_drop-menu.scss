@@ -1,0 +1,31 @@
+page {
+  --cdm-drop-menu-shadow: none; // 顶部阴影
+  --cdm-drop-menu-height: 44px; // 顶部高度
+  --cdm-drop-menu-border-bottom-width: var(--cdm-theme-border-width-base); // 顶部下边框宽度
+  --cdm-drop-menu-border-color: var(--cdm-theme-border-color-light); // 顶部下边框颜色
+  --cdm-drop-menu-bg-color: var(--cdm-theme-bg-color-white); // 顶部背景色
+  --cdm-drop-menu-font-size: var(--cdm-theme-font-size-body); // 顶部字体大小
+  --cdm-drop-menu-font-color: var(--cdm-theme-font-color-principal); // 顶部字体颜色
+  --cdm-drop-menu-font-weight: var(--cdm-theme-font-weight-regular); // 顶部字体字重
+  --cdm-drop-menu-icon-margin: var(--cdm-theme-icon-margin); // 顶部图标和文字间距
+  --cdm-drop-menu-icon-size: var(--cdm-theme-font-size-subhead); // 顶部图标大小
+  --cdm-drop-menu-icon-color: var(--cdm-theme-font-color-secondary); // 顶部图标颜色
+  --cdm-drop-menu-active-font-color: var(--cdm-theme-color-primary); // 顶部激活状态字体颜色
+  --cdm-drop-menu-active-icon-color: var(--cdm-theme-color-primary); // 顶部激活状态图标颜色
+  --cdm-drop-menu-disabled-font-color: var(--cdm-theme-font-color-disabled); // 顶部禁用状态字体颜色
+  --cdm-drop-menu-disabled-icon-color: var(--cdm-theme-font-color-disabled); // 顶部禁用状态字体图标
+  --cdm-drop-menu-item-height: 40px; // 单个下拉菜单的高度
+  --cdm-drop-menu-item-padding-vertical: 16px; // 单个下拉菜单左右内边距
+  --cdm-drop-menu-item-border-width: var(--cdm-theme-border-width-base); // 下拉菜单之间的分隔线宽度
+  --cdm-drop-menu-item-border-color: var(--cdm-theme-border-color-light); // 下拉菜单之间的分隔线颜色
+  --cdm-drop-menu-item-bg-color: var(--cdm-theme-bg-color-white); // 下拉菜单背景色
+  --cdm-drop-menu-item-font-size: var(--cdm-theme-font-size-body); // 下拉菜单字体大小
+  --cdm-drop-menu-item-font-color: var(--cdm-theme-font-color-principal); // 下拉菜单字体颜色
+  --cdm-drop-menu-item-icon-size: var(--cdm-theme-font-size-subhead); // 下拉菜单图标大小
+  --cdm-drop-menu-item-icon-color: var(--cdm-theme-font-color-principal); // 下拉菜单图标颜色
+  --cdm-drop-menu-item-active-bg-color: var(--cdm-theme-bg-color-white); // 下拉菜单选中状态背景色
+  --cdm-drop-menu-item-active-font-color: var(--cdm-theme-color-primary); // 下拉菜单选中状态字体颜色
+  --cdm-drop-menu-item-active-icon-color: var(--cdm-theme-color-primary); // 下拉菜单选中状态图标颜色
+  --cdm-drop-menu-item-disabled-font-color: var(--cdm-theme-font-color-disabled); // 下拉菜单禁用状态字体颜色
+  --cdm-drop-menu-item-disabled-icon-color: var(--cdm-theme-font-color-disabled); // 下拉菜单禁用状态图标颜色
+}

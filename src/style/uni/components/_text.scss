@@ -1,0 +1,23 @@
+page {
+  --cdm-text-font-size: var(--cdm-theme-font-size-body); // 字体大小
+  --cdm-text-font-weight: var(--cdm-theme-font-weight-regular); // 字体字重
+  --cdm-text-icon-margin: var(--cdm-theme-icon-margin); // 图标和文字间距
+  --cdm-text-icon-size: var(--cdm-theme-font-size-subhead); // 图标大小
+  --cdm-text-principal-font-color: var(--cdm-theme-font-color-principal); // 主要字体颜色
+  --cdm-text-secondary-font-color: var(--cdm-theme-font-color-secondary); // 次要字体颜色
+  --cdm-text-tertiary-font-color: var(--cdm-theme-font-color-tertiary); // 辅助字体颜色
+  --cdm-text-quaternary-font-color: var(--cdm-theme-font-color-quaternary); // 不重要字体颜色
+  --cdm-text-price-font-color: var(--cdm-theme-font-color-price); // 金额字体颜色
+  --cdm-text-primary-font-color: var(--cdm-theme-color-primary); // 主题字体颜色
+  --cdm-text-success-font-color: var(--cdm-theme-color-success); // 成功字体颜色
+  --cdm-text-warning-font-color: var(--cdm-theme-color-warning); // 警告字体颜色
+  --cdm-text-danger-font-color: var(--cdm-theme-color-danger); // 危险字体颜色
+  --cdm-text-disabled-font-color: var(--cdm-theme-font-color-disabled); // 禁用状态字体颜色
+  --cdm-text-price-disabled-font-color: var(--cdm-theme-color-danger-disabled); // 禁用状态金额字体颜色
+  --cdm-text-primary-disabled-font-color: var(--cdm-theme-color-primary-disabled); // 禁用状态主题字体颜色
+  --cdm-text-danger-disabled-font-color: var(--cdm-theme-color-danger-disabled); // 禁用状态危险字体颜色
+  --cdm-text-success-disabled-font-color: var(--cdm-theme-color-success-disabled); // 禁用状态成功字体颜色
+  --cdm-text-warning-disabled-font-color: var(--cdm-theme-color-warning-disabled); // 禁用状态警告字体颜色
+  --cdm-text-toggle-font-color: var(--cdm-theme-color-primary); // 折叠展开按钮字体颜色
+  --cdm-text-toggle-disabled-font-color: var(--cdm-theme-color-primary-disabled); // 折叠展开按钮禁用状态字体颜色
+}

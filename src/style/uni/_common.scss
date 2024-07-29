@@ -1,0 +1,38 @@
+// #ifdef VUE3
+:not(not) {
+  font-family: $cdm-theme-font-family;
+}
+// #endif
+
+// #ifdef VUE2
+* {
+  font-family: $cdm-theme-font-family;
+}
+// #endif
+
+// 生成 4 个方向的安全区
+@each $d in top, right, bottom, left {
+  .cube-safe-area-inset-#{$d} {
+    padding-#{$d}: 0;
+    padding-#{$d}: constant(safe-area-inset-#{$d});
+    padding-#{$d}: env(safe-area-inset-#{$d});
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+  -webkit-appearance: none;
+  background: transparent;
+}
+
+
+// 微信小程序 禁止图标点击效果
+// #ifdef MP-WEIXIN
+.cube-icon-font,
+.cube-icon-image,
+.cube-icon-image-custom {
+  -webkit-tap-highlight-color: transparent; /* 禁用点击高亮 */
+}
+// #endif

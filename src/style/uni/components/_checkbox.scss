@@ -1,0 +1,26 @@
+page {
+  --cdm-checkbox-column-gap: var(--cdm-theme-gap-base); // 水平相邻间距
+  --cdm-checkbox-row-gap: var(--cdm-theme-stacking-sm); // 垂直相邻间距
+  --cdm-checkbox-font-size: var(--cdm-theme-font-size-body); // 字体大小
+  --cdm-checkbox-font-color: var(--cdm-theme-font-color-principal); // 字体颜色
+  --cdm-checkbox-input-size: 18px; // 框体宽高
+  --cdm-checkbox-input-margin: var(--cdm-theme-gap-sm); // 框体和文字间距
+  --cdm-checkbox-input-border-width: var(--cdm-theme-border-width-base); // 框体边框宽度
+  --cdm-checkbox-input-border-color: var(--cdm-theme-border-color-base); // 框体边框颜色
+  --cdm-checkbox-input-border-radius: 4px; // 方型框体边框圆角
+  --cdm-checkbox-input-bg-color: var(--cdm-theme-bg-color-white); // 框体背景色
+  --cdm-checkbox-input-icon-size: 14px; // 框体勾选图标的大小
+  --cdm-checkbox-disabled-input-border-color: var(--cdm-theme-border-color-disabled); // 禁用状态框体边框颜色
+  --cdm-checkbox-disabled-input-bg-color: var(--cdm-theme-bg-color-white-disabled); // 禁用状态框体背景色
+  --cdm-checkbox-disabled-font-color: var(--cdm-theme-font-color-disabled); // 禁用状态字体颜色
+  --cdm-checkbox-checked-input-bg-color: var(--cdm-theme-color-primary); // 选中状态框体背景色
+  --cdm-checkbox-checked-input-border-color: var(--cdm-theme-color-primary); // 选中状态框体边框颜色
+  --cdm-checkbox-checked-input-icon-color: var(--cdm-theme-color-white); // 选中状态图标颜色
+  --cdm-checkbox-disabled-checked-input-bg-color: var(--cdm-theme-bg-color-white-disabled); // 选中禁用状态框体背景色
+  --cdm-checkbox-disabled-checked-input-border-color: var(--cdm-theme-border-color-disabled); // 选中禁用状态边框颜色
+  --cdm-checkbox-disabled-checked-input-icon-color: var(--cdm-theme-color-white); // 选中禁用状态图标颜色
+  --cdm-checkbox-mini-font-size: var(--cdm-theme-font-size-caption); // 迷你尺寸字体大小
+  --cdm-checkbox-mini-input-size: 14px; // 迷你尺寸框体宽高
+  --cdm-checkbox-mini-input-margin: var(--cdm-theme-gap-sm); // 迷你尺寸框体外边距
+  --cdm-checkbox-mini-input-border-radius: var(--cdm-theme-border-radius-base); // 方型框体边框圆角
+}

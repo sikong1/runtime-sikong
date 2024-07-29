@@ -1,0 +1,21 @@
+page {
+  --cdm-switch-border-width: 0; // 边框宽度
+  --cdm-switch-border-radius: var(--cdm-theme-border-radius-max); // 边框圆角
+  --cdm-switch-border-color: transparent; // 边框颜色
+  --cdm-switch-padding: var(--cdm-theme-spacing-2); // 内边距
+  --cdm-switch-medium-width: 42px; // 中等尺寸宽度
+  --cdm-switch-medium-height: 24px; // 中等尺寸高度
+  --cdm-switch-small-width: 34px; // 小号尺寸宽度
+  --cdm-switch-small-height: 20px; // 小号尺寸高度
+  --cdm-switch-mini-width: 28px; // 迷你尺寸宽度
+  --cdm-switch-mini-height: 16px; // 迷你尺寸高度
+  --cdm-switch-open-bg-color: var(--cdm-theme-color-primary); // 开启状态背景色
+  --cdm-switch-close-bg-color: var(--cdm-theme-border-color-base); // 关闭状态背景色
+  --cdm-switch-node-bg-color: var(--cdm-theme-color-white); // 切换按钮背景色
+  --cdm-switch-node-border-width: 0; // 切换按钮边框宽度
+  --cdm-switch-node-border-radius: var(--cdm-theme-border-radius-max); // 切换按钮边框圆角
+  --cdm-switch-node-border-color: transparent; // 切换按钮边框颜色
+  --cdm-switch-disabled-open-bg-color: var(--cdm-theme-color-primary-disabled); // 禁用开启状态背景色
+  --cdm-switch-disabled-close-bg-color: var(--cdm-theme-border-color-disabled); // 禁用关闭状态背景色
+  --cdm-switch-disabled-node-bg-color: var(--cdm-theme-bg-color-white); // 禁用状态切换按钮背景色
+}

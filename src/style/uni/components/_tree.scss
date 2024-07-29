@@ -1,0 +1,13 @@
+page {
+  --cdm-tree-node-height: 30px; // 节点高度
+  --cdm-tree-node-bg-color: var(--cdm-theme-bg-color-white); // 节点背景色
+  --cdm-tree-node-font-size: var(--cdm-theme-font-size-body); // 节点字体大小
+  --cdm-tree-node-font-color: var(--cdm-theme-font-color-principal); // 节点字体颜色
+  --cdm-tree-node-icon-margin-right: var(--cdm-theme-icon-margin); // 节点图标右外边距
+  --cdm-tree-node-icon-size: 22px; // 节点图标大小
+  --cdm-tree-node-icon-color: var(--cdm-theme-font-color-secondary); // 节点图标颜色
+  --cdm-tree-node-checked-bg-color: var(--cdm-theme-bg-color-white); // 选中状态 节点背景色
+  --cdm-tree-node-checked-font-color: var(--cdm-theme-font-color-principal); // 选中状态 节点字体颜色
+  --cdm-tree-node-disabled-bg-color: var(--cdm-theme-bg-color-white); // 禁用状态 节点背景色
+  --cdm-tree-node-disabled-font-color: var(--cdm-theme-font-color-principal); // 禁用状态 节点字体颜色
+}

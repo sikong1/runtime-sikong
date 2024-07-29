@@ -1,0 +1,25 @@
+page {
+  --cdm-swiper-height: 120px; // 高度
+  --cdm-swiper-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-swiper-border-width: 0; // 边框宽度
+  --cdm-swiper-border-radius: 0; // 边框圆角
+  --cdm-swiper-border-color: transparent; // 边框颜色
+  --cdm-swiper-title-height: 30px; // 标题高度
+  --cdm-swiper-title-bg-color: #{$cube--black-5}; // 标题背景色
+  --cdm-swiper-title-font-size: var(--cdm-theme-font-size-body); // 标题字体大小
+  --cdm-swiper-title-font-color: var(--cdm-theme-color-white); // 标题字体颜色
+  --cdm-swiper-indicator-gap: 4px; // 圆形和条状指示器元素间距
+  --cdm-swiper-indicator-padding-horizontal: 2px; // 指示器上下内边距
+  --cdm-swiper-indicator-padding-vertical: 4px; // 指示器左右内边距
+  --cdm-swiper-indicator-border-width: var(--cdm-theme-border-width-base); // 指示器边框宽度
+  --cdm-swiper-indicator-border-radius: 100px; // 指示器边框圆角
+  --cdm-swiper-indicator-border-color: transparent; // 指示器边框颜色
+  --cdm-swiper-indicator-bg-color: #040b16; // 指示器背景色
+  --cdm-swiper-indicator-bg-opacity: 0.4; // 指示器背景透明度
+  --cdm-swiper-indicator-color: var(--cdm-theme-color-white); // 指示器颜色
+  --cdm-swiper-indicator-opacity: 0.5; // 指示器透明度
+  --cdm-swiper-indicator-active-color: var(--cdm-theme-color-white); // 指示器激活状态颜色
+  --cdm-swiper-indicator-dot-size: 4px; // 圆形指示器大小
+  --cdm-swiper-indicator-line-width: 12px; // 条状指示器宽度
+  --cdm-swiper-indicator-font-size: var(--cdm-theme-font-size-caption); // 分页指示器字体大小
+}

@@ -1,0 +1,24 @@
+page {
+  --cdm-address-card-margin: var(--cdm-theme-stacking-base); // 卡片间距
+  --cdm-address-card-border-width: var(--cdm-theme-border-width-base); // 边框宽度
+  --cdm-address-card-border-radius: var(--cdm-theme-border-radius-base); // 边框圆角
+  --cdm-address-card-border-color: transparent; // 边框颜色
+  --cdm-address-card-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-address-card-header-font-size: var(--cdm-theme-font-size-body); // 顶部字体大小
+  --cdm-address-card-header-font-color: var(--cdm-theme-font-color-principal); // 顶部字体颜色
+  --cdm-address-card-header-font-weight: var(--cdm-theme-font-weight-bold); // 顶部字体字重
+  --cdm-address-card-content-font-size: var(--cdm-theme-font-size-body); // 详细地址字体大小
+  --cdm-address-card-content-font-color: var(--cdm-theme-font-color-principal); // 详细地址字体颜色
+  --cdm-address-card-content-font-weight: var(--cdm-theme-font-weight-regular); // 详细地址字体字重
+  --cdm-address-card-extra-font-size: var(--cdm-theme-font-size-body); // 额外信息字体大小
+  --cdm-address-card-extra-font-color: var(--cdm-theme-font-color-secondary); // 额外信息字体颜色
+  --cdm-address-card-extra-font-weight: var(--cdm-theme-font-weight-regular); // 额外信息字体字重
+  --cdm-address-card-edit-icon-size: 18px; // 编辑图标大小
+  --cdm-address-card-edit-icon-color: var(--cdm-theme-font-color-principal); // 编辑图标颜色
+  --cdm-address-card-active-border-color: var(--cdm-theme-border-color-base); // 选中状态边框颜色
+  --cdm-address-card-active-shadow: var(--cdm-theme-shadow-1-down); // 选中状态阴影
+  --cdm-address-card-disabled-header-font-color: var(--cdm-theme-font-color-disabled); // 禁用状态顶部字体颜色
+  --cdm-address-card-disabled-content-font-color: var(--cdm-theme-font-color-disabled); // 禁用状态详细地址字体颜色
+  --cdm-address-card-disabled-extra-font-color: var(--cdm-theme-font-color-disabled); // 禁用状态额外信息字体颜色
+  --cdm-address-card-disabled-edit-icon-color: var(--cdm-theme-font-color-disabled); // 禁用状态编辑图标颜色
+}

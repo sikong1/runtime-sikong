@@ -1,0 +1,43 @@
+page {
+  --cdm-textarea-padding-horizontal: var(--cdm-theme-spacing-8); // 上下内边距
+  --cdm-textarea-padding-vertical: var(--cdm-theme-spacing-8); // 左右内边距
+  --cdm-textarea-border-width: var(--cdm-theme-border-width-base); // 边框大小
+  --cdm-textarea-border-radius: var(--cdm-theme-border-radius-base); // 边框圆角
+  --cdm-textarea-border-color: var(--cdm-theme-border-color-base); // 边框颜色
+  --cdm-textarea-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-textarea-font-size: var(--cdm-theme-font-size-body); // 字体大小
+  // 微信小程序的字体和行高如果不一致则会出现显示不全的问题
+  --cdm-textarea-font-line-height: var(--cdm-theme-font-line-height-body); // 字体行高
+  --cdm-textarea-font-color: var(--cdm-theme-font-color-principal); // 字体颜色
+  --cdm-textarea-placeholder-font-color: var(--cdm-theme-font-color-tertiary); // 占位符字体颜色
+  --cdm-textarea-count-position-right: var(--cdm-theme-spacing-8); // 字符统计和右边界距离
+  --cdm-textarea-count-position-bottom: var(--cdm-theme-spacing-8); // 字符统计和下边界距离
+  --cdm-textarea-count-font-size: var(--cdm-theme-font-size-caption); //  字符统计字体大小
+  --cdm-textarea-count-font-color: var(--cdm-theme-font-color-secondary); // 字符统计字体颜色
+  --cdm-textarea-count-zoom: 0.916; // 字符统计字体缩放比例
+  --cdm-textarea-clear-position-right: var(--cdm-theme-spacing-8); // 清除图标和右边界距离
+  --cdm-textarea-clear-position-top: var(--cdm-theme-spacing-8); // 清除图标和上边界距离
+  --cdm-textarea-clear-icon-margin: var(--cdm-theme-icon-margin); // 清除图标右外边距
+  --cdm-textarea-clear-icon-size: var(--cdm-theme-font-size-subhead); // 清除图标大小
+  --cdm-textarea-clear-icon-color: var(--cdm-theme-font-color-secondary); // 清除图标颜色
+  --cdm-textarea-focus-border-color: var(--cdm-theme-color-primary); // 聚焦状态边框颜色
+  --cdm-textarea-focus-bg-color: var(--cdm-theme-bg-color-white); // 聚焦状态背景色
+  --cdm-textarea-focus-font-color: var(--cdm-theme-font-color-principal); // 聚焦状态字体颜色
+  --cdm-textarea-focus-placeholder-font-color: var(--cdm-theme-font-color-tertiary); // 聚焦状态占位符字体颜色
+  --cdm-textarea-focus-count-font-color: var(--cdm-theme-font-color-secondary); // 聚焦状态字符统计字体颜色
+  --cdm-textarea-disabled-border-color: var(--cdm-theme-border-color-disabled); // 禁用状态边框颜色
+  --cdm-textarea-disabled-bg-color: var(--cdm-theme-bg-color-white-disabled); // 禁用状态背景色
+  --cdm-textarea-disabled-font-color: var(--cdm-theme-font-color-disabled); // 禁用状态字体颜色
+  --cdm-textarea-disabled-placeholder-font-color: var(--cdm-theme-font-color-disabled); // 禁用状态占位符字体颜色
+  --cdm-textarea-disabled-count-font-color: var(--cdm-theme-font-color-disabled); // 禁用状态字符统计字体颜色
+  --cdm-textarea-invalid-border-color: var(--cdm-theme-color-danger); // 校验失败状态边框颜色
+  --cdm-textarea-invalid-bg-color: var(--cdm-theme-bg-color-white); // 校验失败状态背景色
+  --cdm-textarea-invalid-font-color: var(--cdm-theme-color-danger); // 校验失败状态字体颜色
+  --cdm-textarea-invalid-placeholder-font-color: var(--cdm-theme-color-danger); // 校验失败状态占位符字体颜色
+  --cdm-textarea-invalid-count-font-color: var(--cdm-theme-color-danger); // 校验失败状态字符统计字体颜色
+  --cdm-textarea-read-only-border-color: var(--cdm-theme-border-color-base); // 只读状态边框颜色
+  --cdm-textarea-read-only-bg-color: var(--cdm-theme-bg-color-white); // 只读状态背景色
+  --cdm-textarea-read-only-font-color: var(--cdm-theme-font-color-secondary); // 只读状态字体颜色
+  --cdm-textarea-read-only-placeholder-font-color: var(--cdm-theme-font-color-secondary); // 只读状态占位符字体颜色
+  --cdm-textarea-read-only-count-font-color: var(--cdm-theme-font-color-secondary); // 只读状态字符统计字体颜色
+}

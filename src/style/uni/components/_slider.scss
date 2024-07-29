@@ -1,0 +1,26 @@
+page {
+  --cdm-slider-height: 200px; // 垂直状态的高度
+  --cdm-slider-padding-horizontal: var(--cdm-theme-spacing-16); // 上下内边距
+  --cdm-slider-padding-vertical: var(--cdm-theme-spacing-16); // 左右内边距
+  --cdm-slider-range-margin: var(--cdm-theme-gap-sm); // 范围文字和线条的间距
+  --cdm-slider-range-font-size: var(--cdm-theme-font-size-body); // 范围文字字体大小
+  --cdm-slider-range-font-color: var(--cdm-theme-font-color-principal); // 范围文字字体颜色
+  --cdm-slider-bar-width: 4px; // 线条宽度
+  --cdm-slider-bar-bg-color: var(--cdm-theme-border-color-base); // 线条背景色
+  --cdm-slider-bar-border-width: var(--cdm-theme-border-width-base); // 线条边框宽度
+  --cdm-slider-bar-border-radius: var(--cdm-theme-border-radius-max); // 线条边框圆角
+  --cdm-slider-bar-border-color: transparent; // 线条边框颜色
+  --cdm-slider-bar-selected-bg-color: var(--cdm-theme-color-primary); // 线条选中部分背景色
+  --cdm-slider-button-width: 20px; // 滑块按钮宽度
+  --cdm-slider-button-height: 20px; // 滑块按钮高度
+  --cdm-slider-button-border-width: var(--cdm-theme-border-width-bold); // 滑块按钮边框宽度
+  --cdm-slider-button-border-radius: var(--cdm-theme-border-radius-max); // 滑块按钮边框圆角
+  --cdm-slider-button-border-color: var(--cdm-theme-color-primary); // 滑块按钮边框颜色
+  --cdm-slider-button-bg-color: var(--cdm-theme-bg-color-white); // 滑块按钮背景色
+  --cdm-slider-button-text-margin: var(--cdm-theme-stacking-sm); // 滑块按钮文字偏移量（仅在外部时生效）
+  --cdm-slider-button-font-size: var(--cdm-theme-font-size-caption); // 滑块按钮字体大小
+  --cdm-slider-button-font-color: var(--cdm-theme-font-color-principal); // 滑块按钮字体颜色
+  --cdm-slider-button-shadow: none; // 滑块按钮阴影
+  --cdm-slider-disabled-bar-bg-color: var(--cdm-theme-border-color-disabled); // 禁用状态线条背景色
+  --cdm-slider-disabled-bar-selected-bg-color: var(--cdm-theme-color-primary-disabled); // 禁用状态线条选中部分背景色
+}

@@ -1,0 +1,19 @@
+page {
+  --cdm-badge-min-width: 8px; // 最小宽度
+  --cdm-badge-height: 16px; // 高度
+  --cdm-badge-padding-vertical: var(--cdm-theme-spacing-8); // 左右内边距
+  --cdm-badge-border-radius: var(--cdm-theme-border-radius-max); // 边框圆角
+  --cdm-badge-border-width: var(--cdm-theme-border-width-base); // 边框宽度
+  --cdm-badge-border-color: var(--cdm-theme-color-white); // 边框颜色
+  --cdm-badge-font-size: var(--cdm-theme-font-size-caption); // 字体大小
+  --cdm-badge-font-color: var(--cdm-theme-color-white); // 字体颜色
+  --cdm-badge-icon-size: var(--cdm-theme-font-size-caption); // 图标大小
+  --cdm-badge-icon-color: var(--cdm-theme-color-white); // 图标颜色
+  --cdm-badge-primary-bg-color: var(--cdm-theme-color-primary); // 主要模式背景色
+  --cdm-badge-danger-bg-color: var(--cdm-theme-color-danger); // 危险模式背景色
+  --cdm-badge-success-bg-color: var(--cdm-theme-color-success); // 成功模式背景色
+  --cdm-badge-info-bg-color: var(--cdm-theme-color-info); // 信息模式背景色
+  --cdm-badge-warning-bg-color: var(--cdm-theme-color-warning); // 警告模式背景色
+  --cdm-badge-dot-width: 8px; // 圆点模式宽度
+  --cdm-badge-dot-height: 8px; // 圆点模式高度
+}

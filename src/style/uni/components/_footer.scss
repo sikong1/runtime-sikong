@@ -1,0 +1,16 @@
+page {
+  --cdm-footer-padding-vertical: var(--cdm-theme-spacing-16); // 左右内边距
+  --cdm-footer-padding-horizontal: var(--cdm-theme-spacing-16); // 上下内边距
+  --cdm-footer-item-gap-horizontal: var(--cdm-theme-stacking-sm); // 子元素之间的垂直间距
+  --cdm-footer-logo-font-size: var(--cdm-theme-font-size-subhead); // 品牌字体大小
+  --cdm-footer-logo-font-color: var(--cdm-theme-font-color-principal); // 品牌字体颜色
+  --cdm-footer-logo-font-weight: var(--cdm-theme-font-weight-bold); // 品牌字体字重
+  --cdm-footer-logo-icon-width: 24px; // 品牌图标宽度
+  --cdm-footer-link-font-size: var(--cdm-theme-font-size-caption); // 链接字体大小
+  --cdm-footer-link-font-color: var(--cdm-theme-color-primary); // 链接字体颜色
+  --cdm-footer-tag-gap: var(--cdm-theme-gap-sm); // 标签间距
+  --cdm-footer-copyright-font-size: var(--cdm-theme-font-size-caption); // 版权字体大小
+  --cdm-footer-copyright-font-color: var(--cdm-theme-font-color-tertiary); // 版权字体颜色
+  --cdm-footer-record-font-size: var(--cdm-theme-font-size-caption); // 备案字体大小
+  --cdm-footer-record-font-color: var(--cdm-theme-font-color-tertiary); // 备案字体颜色
+}

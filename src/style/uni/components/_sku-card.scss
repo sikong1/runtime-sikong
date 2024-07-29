@@ -1,0 +1,15 @@
+page {
+  --cdm-sku-card-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-sku-card-header-height: var(--cdm-theme-header-height); // 头部高度
+  --cdm-sku-card-header-padding-vertical: var(--cdm-theme-spacing-16); // 头部左右内边距
+  --cdm-sku-card-header-bg-color: var(--cdm-theme-bg-color-white); // 头部背景色
+  --cdm-sku-card-header-font-size: var(--cdm-theme-header-font-size); // 头部字体大小
+  --cdm-sku-card-header-font-color: var(--cdm-theme-header-font-color); // 头部字体颜色
+  --cdm-sku-card-header-font-weight: var(--cdm-theme-font-weight-bold); // 头部字体字重
+  --cdm-sku-card-content-padding-vertical: var(--cdm-theme-spacing-16); // 内容区左右内边距
+  --cdm-sku-card-content-padding-horizontal: var(--cdm-theme-spacing-8); // 内容区上下内边距
+  --cdm-sku-card-content-bg-color: var(--cdm-theme-bg-color-white); // 内容区背景色
+  --cdm-sku-card-buttons-height: 50px; // 按钮组高度
+  --cdm-sku-card-buttons-padding-vertical: var(--cdm-theme-spacing-16); // 按钮组左右内边距
+  --cdm-sku-card-buttons-bg-color: var(--cdm-theme-bg-color-white); // 按钮组背景色
+}

@@ -1,0 +1,12 @@
+page {
+  --cdm-toolbar-height: var(--cdm-theme-header-height); // 顶部高度
+  --cdm-toolbar-padding-vertical: var(--cdm-theme-spacing-16); // 顶部左右内边距
+  --cdm-toolbar-bg-color: var(--cdm-theme-bg-color-white); // 顶部背景色
+  --cdm-toolbar-title-font-size: var(--cdm-theme-font-size-subhead); // 标题字体大小
+  --cdm-toolbar-title-font-color: var(--cdm-theme-font-color-principal); // 标题字体颜色
+  --cdm-toolbar-title-font-weight: var(--cdm-theme-font-weight-bold); // 标题字体字重
+  --cdm-toolbar-button-margin: 16px; // 标题左右按钮与标题的间距
+  --cdm-toolbar-button-font-size: var(--cdm-theme-font-size-body); // 标题左右按钮字体大小
+  --cdm-toolbar-cancel-button-font-color: var(--cdm-theme-font-color-secondary); // 标题取消按钮字体颜色
+  --cdm-toolbar-confirm-button-font-color: var(--cdm-theme-color-primary); // 标题确认按钮字体颜色
+}

@@ -6,7 +6,14 @@ export default defineConfig({
   plugins: [uni()],
   devServer: {
     headers: {
-      'Access-Control-Allow-Origin': '*',
-    },
+      "Access-Control-Allow-Origin": "*"
+    }
   },
-});
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "./src/style/index.scss";`
+      }
+    }
+  }
+})

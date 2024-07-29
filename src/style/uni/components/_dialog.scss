@@ -1,0 +1,17 @@
+page {
+  --cdm-dialog-width: 75vw; // 宽度
+  --cdm-dialog-min-height: 120px; // 最小高度
+  --cdm-dialog-padding-vertical: var(--cdm-theme-spacing-16); // 左右内边距
+  --cdm-dialog-padding-horizontal: var(--cdm-theme-spacing-16); // 上下内边距
+  --cdm-dialog-bg-color: var(--cdm-theme-bg-color-white); // 背景颜色
+  --cdm-dialog-header-margin-bottom: var(--cdm-theme-stacking-base); // 顶部下外边距
+  --cdm-dialog-header-font-size: var(--cdm-theme-font-size-subhead); // 顶部字体大小
+  --cdm-dialog-header-font-color: var(--cdm-theme-font-color-principal); // 顶部字体颜色
+  --cdm-dialog-header-font-weight: var(--cdm-theme-font-weight-bold); // 顶部字体字重
+  --cdm-dialog-header-line-height: var(--cdm-theme-font-line-height-subhead); // 顶部字体行高
+  --cdm-dialog-content-font-size: var(--cdm-theme-font-size-subhead); // 内容区字体大小
+  --cdm-dialog-content-font-color: var(--cdm-theme-font-color-secondary); // 内容区字体颜色
+  --cdm-dialog-content-line-height: var(--cdm-theme-font-line-height-subhead); // 内容区文本行高
+  --cdm-dialog-footer-margin-top: var(--cdm-theme-stacking-xl); // 底部上外边距
+  --cdm-dialog-footer-button-margin: var(--cdm-theme-gap-md); // 底部左右按钮的间距
+}

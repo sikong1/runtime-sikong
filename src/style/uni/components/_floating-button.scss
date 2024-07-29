@@ -1,0 +1,29 @@
+page {
+  --cdm-floating-button-size: 50px; // 尺寸
+  --cdm-floating-button-border-width: var(--cdm-theme-border-width-base); // 边框宽度
+  --cdm-floating-button-border-radius: var(--cdm-theme-border-radius-max); // 方型边框圆角
+  --cdm-floating-button-border-color: var(--cdm-theme-color-primary); // 边框颜色
+  --cdm-floating-button-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-floating-button-icon-size: 20px; // 图标大小
+  --cdm-floating-button-icon-color: var(--cdm-theme-color-primary); // 图标颜色
+  --cdm-floating-button-shadow: var(--cdm-theme-shadow-2-down); // 阴影
+  --cdm-floating-button-content-padding-vertical: var(--cdm-theme-spacing-16); // 展开内容左右内边距
+  --cdm-floating-button-content-padding-horizontal: var(--cdm-theme-spacing-8); // 展开内容上下内边距
+  --cdm-floating-button-content-border-width: var(--cdm-theme-border-width-base); // 展开内容边框宽度
+  --cdm-floating-button-content-border-radius: var(--cdm-theme-border-radius-base); // 展开内容边框圆角（不要超过尺寸的一半）
+  --cdm-floating-button-content-border-color: transparent; // 展开内容边框颜色
+  --cdm-floating-button-content-bg-color: var(--cdm-theme-bg-color-base); // 展开内容背景色
+  --cdm-floating-button-content-item-margin: var(--cdm-theme-gap-base); // 选项之间的间距
+  --cdm-floating-button-content-item-border-width: var(--cdm-theme-border-width-base); // 选项边框宽度
+  --cdm-floating-button-content-item-border-radius: var(--cdm-theme-border-radius-base); // 选项边框圆角
+  --cdm-floating-button-content-item-border-color: transparent; // 选项边框颜色
+  --cdm-floating-button-content-item-bg-color: transparent; // 选项背景色
+  --cdm-floating-button-content-item-font-size: var(--cdm-theme-font-size-caption); // 选项字体大小
+  --cdm-floating-button-content-item-font-color: var(--cdm-theme-font-color-principal); // 选项字体颜色
+  --cdm-floating-button-content-item-icon-margin: var(--cdm-theme-icon-margin); // 选项图标和文字的间距
+  --cdm-floating-button-content-item-icon-size: var(--cdm-theme-font-size-subhead); // 选项图标大小
+  --cdm-floating-button-content-item-icon-color: var(--cdm-theme-font-color-principal); // 选项图标颜色
+  --cdm-floating-button-content-item-active-bg-color: transparent; // 选项激活状态背景色
+  --cdm-floating-button-content-item-active-font-color: var(--cdm-theme-color-primary); // 选项激活状态字体颜色
+  --cdm-floating-button-content-item-active-icon-color: var(--cdm-theme-color-primary); // 选项激活状态图标颜色
+}

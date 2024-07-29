@@ -1,0 +1,9 @@
+page {
+  --cdm-image-viewer-width: 60px; // 图片宽度
+  --cdm-image-viewer-height: 60px; // 图片高度
+  --cdm-image-viewer-margin: var(--cdm-theme-gap-sm); // 图片间距
+  --cdm-image-viewer-bg-color: var(--cdm-theme-bg-color-base); // 图片背景色
+  --cdm-image-viewer-border-radius: var(--cdm-theme-border-radius-base); // 图片圆角
+  --cdm-image-viewer-icon-size: 26px; // 占位图标大小
+  --cdm-image-viewer-icon-color: var(--cdm-theme-color-primary); // 占位图标颜色
+}

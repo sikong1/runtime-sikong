@@ -1,0 +1,26 @@
+page {
+  --cdm-submit-bar-height: 58px; // 高度
+  --cdm-submit-bar-padding-vertical: var(--cdm-theme-spacing-16); // 左右内边距
+  --cdm-submit-bar-border-top-width: var(--cdm-theme-border-width-base); // 上边框宽度
+  --cdm-submit-bar-border-radius: 0; // 边框圆角
+  --cdm-submit-bar-border-color: var(--cdm-theme-border-color-light); // 边框颜色
+  --cdm-submit-bar-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-submit-bar-all-margin-right: var(--cdm-theme-gap-md); // 全选右外边距
+  --cdm-submit-bar-all-font-size: var(--cdm-theme-font-size-caption); // 全选字体大小
+  --cdm-submit-bar-all-font-color: var(--cdm-theme-font-color-principal); // 全选字体颜色
+  --cdm-submit-bar-all-font-weight: var(--cdm-theme-font-weight-regular); // 全选字体字重
+  --cdm-submit-bar-total-font-size: var(--cdm-theme-font-size-caption); // 合计字体大小
+  --cdm-submit-bar-total-font-color: var(--cdm-theme-font-color-principal); // 合计字体颜色
+  --cdm-submit-bar-total-font-weight: var(--cdm-theme-font-weight-regular); // 合计字体字重
+  --cdm-submit-bar-number-font-size: var(--cdm-theme-font-size-subhead); // 合计金额字体大小
+  --cdm-submit-bar-number-font-color: var(--cdm-theme-font-color-price); // 合计金额字体颜色
+  --cdm-submit-bar-number-font-weight: var(--cdm-theme-font-weight-regular); // 合计金额字体字重
+  --cdm-submit-bar-description-margin-top: var(--cdm-theme-stacking-xs); // 描述信息上外边距
+  --cdm-submit-bar-description-font-size: var(--cdm-theme-font-size-caption); // 描述信息字体大小
+  --cdm-submit-bar-description-font-color: var(--cdm-theme-font-color-principal); // 描述信息字体颜色
+  --cdm-submit-bar-description-font-weight: var(--cdm-theme-font-weight-bold); // 描述信息字体字重
+  --cdm-submit-bar-more-icon-margin-left: var(--cdm-theme-gap-md); // 更多箭头图标左外边距
+  --cdm-submit-bar-more-icon-size: var(--cdm-theme-font-size-subhead); // 更多箭头图标大小
+  --cdm-submit-bar-more-icon-color: var(--cdm-theme-font-color-tertiary); // 更多箭头图标颜色
+  --cdm-submit-bar-button-left-margin: var(--cdm-theme-gap-md); // 提交按钮左外边距
+}

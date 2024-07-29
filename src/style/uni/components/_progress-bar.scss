@@ -1,0 +1,16 @@
+page {
+  --cdm-progress-bar-height: 8px; // 高度
+  --cdm-progress-bar-border-width: 0; // 边框宽度
+  --cdm-progress-bar-border-radius: var(--cdm-theme-border-radius-max); // 边框圆角
+  --cdm-progress-bar-border-color: transparent; // 边框颜色
+  --cdm-progress-bar-bg-color: var(--cdm-theme-border-color-light); // 背景色
+  --cdm-progress-bar-line-color: var(--cdm-theme-color-primary); // 线条颜色
+  --cdm-progress-bar-text-inner-margin-right: var(--cdm-theme-gap-sm); // 内部文本右外边距
+  --cdm-progress-bar-text-inner-font-size: var(--cdm-theme-font-size-caption); // 内部文本字体大小
+  --cdm-progress-bar-text-inner-font-zoom: 0.5; // 内部文本字体缩放比例
+  --cdm-progress-bar-text-inner-font-color: var(--cdm-theme-color-white); // 内部文本字体颜色
+  --cdm-progress-bar-text-outer-margin-left: var(--cdm-theme-gap-sm); // 外部文本右外边距
+  --cdm-progress-bar-text-outer-font-size: var(--cdm-theme-font-size-caption); // 外部文本字体大小
+  --cdm-progress-bar-text-outer-font-zoom: 0.9; // 外部文本字体缩放比例
+  --cdm-progress-bar-text-outer-font-color: var(--cdm-theme-font-color-secondary); // 外部文本字体颜色
+}

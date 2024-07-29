@@ -1,0 +1,13 @@
+page {
+  --cdm-back-top-min-width: 36px; // 宽度
+  --cdm-back-top-height: 36px; // 高度
+  --cdm-back-top-border-width: var(--cdm-theme-border-width-base); // 边框宽度
+  --cdm-back-top-border-radius: var(--cdm-theme-border-radius-base); // 边框圆角
+  --cdm-back-top-border-color: var(--cdm-theme-color-primary); // 边框颜色
+  --cdm-back-top-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-back-top-font-size: var(--cdm-theme-font-size-body); // 字体大小
+  --cdm-back-top-font-color: var(--cdm-theme-color-primary); // 字体颜色
+  --cdm-back-top-icon-size: 22px; // 图标大小
+  --cdm-back-top-icon-color: var(--cdm-theme-color-primary); // 图标颜色
+  --cdm-back-top-hover-bg-color: var(--cdm-theme-bg-color-white-active); // 悬浮状态背景色
+}

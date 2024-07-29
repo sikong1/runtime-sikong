@@ -1,0 +1,27 @@
+page {
+  --cdm-side-bar-width: 120px; // 宽度
+  --cdm-side-bar-bg-color: var(--cdm-theme-bg-color-base); // 背景色
+  --cdm-side-bar-item-height: 50px; // 选项高度
+  --cdm-side-bar-item-padding-vertical: var(--cdm-theme-spacing-8); // 选项左右内边距
+  --cdm-side-bar-item-bg-color: var(--cdm-theme-bg-color-base); // 选项背景颜色
+  --cdm-side-bar-item-label-font-size: var(--cdm-theme-font-size-body); // 选项标题字体大小
+  --cdm-side-bar-item-label-font-color: var(--cdm-theme-font-color-principal); // 选项标题字体颜色
+  --cdm-side-bar-item-label-font-weight: var(--cdm-theme-font-weight-regular); // 选项标题字体字重
+  --cdm-side-bar-item-number-font-size: var(--cdm-theme-font-size-body); // 选项数值字体大小
+  --cdm-side-bar-item-number-font-color: var(--cdm-theme-font-color-secondary); // 选项数值字体颜色
+  --cdm-side-bar-item-number-font-weight: var(--cdm-theme-font-weight-regular); // 选项数值字体字重
+  --cdm-side-bar-item-icon-margin: var(--cdm-theme-icon-margin); // 选项图标和标题的间距
+  --cdm-side-bar-item-icon-size: var(--cdm-theme-font-size-subhead); // 选项图标大小
+  --cdm-side-bar-item-icon-color: var(--cdm-theme-font-color-principal); // 选项图标颜色
+  --cdm-side-bar-item-active-bar-width: 2px; // 选项激活状态线条宽度
+  --cdm-side-bar-item-active-bar-height: 25px; // 选项激活状态线条高度
+  --cdm-side-bar-item-active-bar-color: var(--cdm-theme-color-primary); // 选项激活状态线条颜色
+  --cdm-side-bar-item-active-bg-color: var(--cdm-theme-bg-color-white); // 选项激活状态背景色
+  --cdm-side-bar-item-active-label-font-color: var(--cdm-theme-color-primary); // 选项激活状态标题字体颜色
+  --cdm-side-bar-item-active-number-font-color: var(--cdm-theme-color-primary); // 选项激活状态数值字体颜色
+  --cdm-side-bar-item-active-icon-color: var(--cdm-theme-color-primary); // 选项激活状态图标颜色
+  --cdm-side-bar-item-disabled-bg-color: var(--cdm-theme-bg-color-base-disabled); // 选项禁用状态背景色
+  --cdm-side-bar-item-disabled-label-font-color: var(--cdm-theme-font-color-disabled); // 选项禁用状态标题字体颜色
+  --cdm-side-bar-item-disabled-number-font-color: var(--cdm-theme-font-color-disabled); // 选项禁用状态数值字体颜色
+  --cdm-side-bar-item-disabled-icon-color: var(--cdm-theme-font-color-disabled); // 选项禁用状态图标颜色
+}

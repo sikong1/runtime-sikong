@@ -1,0 +1,34 @@
+page {
+  --cdm-notice-bar-padding-horizontal: var(--cdm-theme-spacing-8); // 上下内边距
+  --cdm-notice-bar-padding-vertical: var(--cdm-theme-spacing-8); // 左右内边距
+  --cdm-notice-bar-border-radius: var(--cdm-theme-border-radius-base); // 边框圆角（圆角模式）
+  --cdm-notice-bar-font-size: var(--cdm-theme-font-size-body); // 字体大小
+  --cdm-notice-bar-font-line-height: var(--cdm-theme-font-line-height-body); // 字体行高
+  --cdm-notice-bar-font-weight: var(--cdm-theme-font-weight-regular); // 字体字重
+  --cdm-notice-bar-icon-margin: var(--cdm-theme-icon-margin); // 图标和文字间距
+  --cdm-notice-bar-prefix-icon-size: var(--cdm-theme-font-size-subhead); // 前置图标大小
+  --cdm-notice-bar-prefix-icon-padding: var(--cdm-theme-spacing-4); // 前置图标内边距
+  --cdm-notice-bar-prefix-icon-border-radius: var(--cdm-theme-border-radius-base); // 前置图标边框圆角
+  --cdm-notice-bar-suffix-icon-size: var(--cdm-theme-font-size-subhead); // 后置图标大小
+  --cdm-notice-bar-suffix-icon-color: var(--cdm-theme-font-color-secondary); // 后置图标颜色
+  --cdm-notice-bar-primary-bg-color: #{$cube--blue-0}; // 主要通知栏背景颜色
+  --cdm-notice-bar-primary-font-color: #{$cube--blue-5}; // 主要通知栏字体颜色
+  --cdm-notice-bar-primary-prefix-bg-color: transparent; // 主要通知栏前置图标背景颜色
+  --cdm-notice-bar-primary-prefix-icon-color: #{$cube--blue-5}; // 主要通知栏前置图标颜色
+  --cdm-notice-bar-success-bg-color: #{$cube--green-1}; // 成功通知栏背景颜色
+  --cdm-notice-bar-success-font-color: #{$cube--green-6}; // 成功通知栏字体颜色
+  --cdm-notice-bar-success-prefix-bg-color: transparent; // 成功通知栏前置图标背景颜色
+  --cdm-notice-bar-success-prefix-icon-color: #{$cube--green-5}; // 成功通知栏前置图标颜色
+  --cdm-notice-bar-warning-bg-color: #{$cube--orange-0}; // 警告通知栏背景颜色
+  --cdm-notice-bar-warning-font-color: #{$cube--orange-5}; // 警告通知栏字体颜色
+  --cdm-notice-bar-warning-prefix-bg-color: transparent; // 警告通知栏前置图标背景颜色
+  --cdm-notice-bar-warning-prefix-icon-color: #{$cube--orange-5}; // 警告通知栏前置图标颜色
+  --cdm-notice-bar-danger-bg-color: #{$cube--red-5}; // 危险通知栏背景颜色
+  --cdm-notice-bar-danger-font-color: #{$cube-white}; // 危险通知栏字体颜色
+  --cdm-notice-bar-danger-prefix-bg-color: transparent; // 危险通知栏前置图标背景颜色
+  --cdm-notice-bar-danger-prefix-icon-color: #{$cube-white}; // 危险通知栏前置图标颜色
+  --cdm-notice-bar-info-bg-color: #{$cube--gray-1}; // 信息通知栏背景颜色
+  --cdm-notice-bar-info-font-color: #{$cube--gray-5}; // 信息通知栏字体颜色
+  --cdm-notice-bar-info-prefix-bg-color: transparent; // 信息通知栏前置图标背景颜色
+  --cdm-notice-bar-info-prefix-icon-color: #{$cube--gray-5}; // 信息通知栏前置图标颜色
+}

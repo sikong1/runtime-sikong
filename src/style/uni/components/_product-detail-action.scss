@@ -1,0 +1,17 @@
+page {
+  --cdm-product-detail-action-height: 58px; // 高度
+  --cdm-product-detail-action-padding-vertical: var(--cdm-theme-spacing-8); // 左右内边距
+  --cdm-product-detail-action-border-width: var(--cdm-theme-border-width-base); // 边框宽度
+  --cdm-product-detail-action-border-radius: 0; // 边框圆角
+  --cdm-product-detail-action-border-color: transparent; // 边框颜色
+  --cdm-product-detail-action-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-product-detail-action-shadow: none; // 阴影
+  --cdm-product-detail-action-font-size: var(--cdm-theme-font-size-caption); // 图标按钮字体大小
+  --cdm-product-detail-action-font-color: var(--cdm-theme-font-color-secondary); // 图标按钮字体颜色
+  --cdm-product-detail-action-font-weight: var(--cdm-theme-font-weight-regular); // 图标按钮字体字重
+  --cdm-product-detail-action-icon-action-min-width: 40px; // 图标按钮最小宽度
+  --cdm-product-detail-action-icon-margin: var(--cdm-theme-icon-margin); // 图标和文字间距
+  --cdm-product-detail-action-icon-size: 20px; // 图标大小
+  --cdm-product-detail-action-icon-color: var(--cdm-theme-font-color-secondary); // 图标颜色
+  --cdm-product-detail-action-button-margin: var(--cdm-theme-gap-sm); // 按钮之间的间距
+}

@@ -1,0 +1,15 @@
+page {
+  --cdm-signature-padding-vertical: 0; // 左右内边距
+  --cdm-signature-padding-horizontal: 0; // 上下内边距
+  --cdm-signature-canvas-height: 200px; // 画布高度
+  --cdm-signature-canvas-border-width: var(--cdm-theme-border-width-base); // 画布边框宽度
+  --cdm-signature-canvas-border-radius: var(--cdm-theme-border-radius-base); // 画布边框圆角
+  --cdm-signature-canvas-border-color: var(--cdm-theme-border-color-base); // 画布边框颜色
+  --cdm-signature-canvas-bg-color: var(--cdm-theme-bg-color-white); // 画布背景色
+  --cdm-signature-footer-margin-top: var(--cdm-theme-stacking-md); // 底部按钮区域上外边距
+  --cdm-signature-footer-button-margin: var(--cdm-theme-gap-md); // 底部清除按钮之间的间距
+  --cdm-signature-disabled-canvas-border-color: var(--cdm-theme-border-color-disabled); // 禁用状态画布边框颜色
+  --cdm-signature-disabled-canvas-bg-color: var(--cdm-theme-bg-color-white-disabled); // 禁用状态画布背景色
+  --cdm-signature-disabled-tips-font-size: var(--cdm-theme-font-size-body); // 禁用状态提示语字体大小
+  --cdm-signature-disabled-tips-font-color: var(--cdm-theme-font-color-disabled); // 禁用状态提示语字体颜色
+}

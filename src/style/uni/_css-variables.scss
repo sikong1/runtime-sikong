@@ -1,0 +1,126 @@
+/*
+ * 基础主题变量
+ */
+
+page {
+  /* Color 颜色 */
+  --cdm-theme-color-white: #{$cube--white-0}; // 白色
+  --cdm-theme-color-black: #{$cube--black-0}; // 黑色
+  --cdm-theme-color-primary: #{$cube--blue-5}; // 主题色（通常为品牌色）
+  --cdm-theme-color-primary-disabled: #{$cube--blue-1}; // 主题色禁用状态
+  --cdm-theme-color-primary-active: #{$cube--blue-7}; // 主题色激活状态
+  --cdm-theme-color-success: #{$cube--green-5}; // 成功色（通常为绿色）
+  --cdm-theme-color-success-disabled: #{$cube--green-1}; // 成功色禁用状态
+  --cdm-theme-color-success-active: #{$cube--green-7}; // 成功色激活状态
+  --cdm-theme-color-warning: #{$cube--orange-5}; // 警告色（通常为橙色）
+  --cdm-theme-color-warning-disabled: #{$cube--orange-1}; // 警告色禁用状态
+  --cdm-theme-color-warning-active: #{$cube--orange-7}; // 警告色激活状态
+  --cdm-theme-color-danger: #{$cube--red-5}; // 危险色（通常为红色）
+  --cdm-theme-color-danger-disabled: #{$cube--red-1}; // 危险色禁用状态
+  --cdm-theme-color-danger-active: #{$cube--red-7}; // 危险色激活状态
+  --cdm-theme-color-info: #{$cube--gray-5}; // 信息色（通常为灰色）
+  --cdm-theme-color-info-disabled: #{$cube--gray-3}; // 信息色禁用状态
+  --cdm-theme-color-info-active: #{$cube--gray-7}; // 信息色激活状态
+
+  /* Icons 图标 */
+  --cdm-theme-icon-bleed: 2px; // 图标四周出血位（用于部分伪图标的视觉补偿）
+  --cdm-theme-icon-margin: 4px; // 文本辅助图标和文本的间距
+
+  /* Font 字体 */
+  --cdm-theme-font-family: -apple-system, blinkmacsystemfont, "PingFang SC", "Microsoft Yahei", "Source Han Sans CN", "Helvetica Neue", helvetica, "Segoe UI", roboto, arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; // 字体家族
+  --cdm-theme-font-code-family: "Roboto Mono", monaco, courier, monospace; // 代码字体家族
+  --cdm-theme-font-variant: tabular-nums;
+  --cdm-theme-font-size-footnote: 10px;
+  --cdm-theme-font-size-overline: 11px;
+  --cdm-theme-font-size-caption: 12px;
+  --cdm-theme-font-size-body: 14px; // 正文字体大小
+  --cdm-theme-font-size-subhead: 16px;
+  --cdm-theme-font-size-headline: 18px;
+  --cdm-theme-font-size-h6: 20px;
+  --cdm-theme-font-size-h5: 24px;
+  --cdm-theme-font-size-h4: 28px;
+  --cdm-theme-font-size-h3: 32px;
+  --cdm-theme-font-size-h2: 36px;
+  --cdm-theme-font-size-h1: 40px;
+  --cdm-theme-font-weight-regular: normal;
+  --cdm-theme-font-weight-bold: bold;
+  --cdm-theme-font-line-height-footnote: 14px;
+  --cdm-theme-font-line-height-overline: 15px;
+  --cdm-theme-font-line-height-caption: 16px;
+  --cdm-theme-font-line-height-body: 20px; // 正文字体行高
+  --cdm-theme-font-line-height-subhead: 22px;
+  --cdm-theme-font-line-height-headline: 24px;
+  --cdm-theme-font-line-height-h6: 28px;
+  --cdm-theme-font-line-height-h5: 32px;
+  --cdm-theme-font-line-height-h4: 36px;
+  --cdm-theme-font-line-height-h3: 40px;
+  --cdm-theme-font-line-height-h2: 44px;
+  --cdm-theme-font-line-height-h1: 48px;
+  --cdm-theme-font-color-principal: #{$cube--gray-9}; // 主要字体颜色
+  --cdm-theme-font-color-secondary: #{$cube--gray-6}; // 次要字体颜色
+  --cdm-theme-font-color-tertiary: #{$cube--gray-4}; // 辅助字体颜色
+  --cdm-theme-font-color-quaternary: #{$cube--gray-3}; // 不重要字体颜色
+  --cdm-theme-font-color-price: #{$cube--red-6}; // 金额字体颜色
+  --cdm-theme-font-color-disabled: #{$cube--gray-3}; // 禁用状态字体颜色
+
+  /* Spacing 间距 */
+  // 通用间距、Padding
+  --cdm-theme-spacing-2: #{$cube--spacing-00};
+  --cdm-theme-spacing-4: #{$cube--spacing-01};
+  --cdm-theme-spacing-8: #{$cube--spacing-02};
+  --cdm-theme-spacing-12: #{$cube--spacing-03};
+  --cdm-theme-spacing-16: #{$cube--spacing-04};
+  --cdm-theme-spacing-20: #{$cube--spacing-05};
+  --cdm-theme-spacing-24: #{$cube--spacing-06};
+  --cdm-theme-spacing-32: #{$cube--spacing-07};
+  --cdm-theme-spacing-40: #{$cube--spacing-08};
+  --cdm-theme-spacing-48: #{$cube--spacing-09};
+  --cdm-theme-spacing-56: #{$cube--spacing-10};
+  --cdm-theme-spacing-64: #{$cube--spacing-11};
+  // 元素间的垂直间距
+  --cdm-theme-stacking-mini: 2px; // 2px
+  --cdm-theme-stacking-xs: 4px; // 4px
+  --cdm-theme-stacking-sm: 8px; // 8px
+  --cdm-theme-stacking-md: 12px; // 12px
+  --cdm-theme-stacking-base: 16px; // 16px
+  --cdm-theme-stacking-lg: 20px; // 20px
+  --cdm-theme-stacking-xl: 24px; // 24px
+  // 元素间的水平间距
+  --cdm-theme-gap-mini: 2px; // 2px
+  --cdm-theme-gap-xs: 4px; // 4px
+  --cdm-theme-gap-sm: 8px; // 8px
+  --cdm-theme-gap-md: 12px; // 12px
+  --cdm-theme-gap-base: 16px; // 16px
+
+  /* Border 边框 */
+  --cdm-theme-border-width-thin: #{$cube--border-width-xs}; // 0.5px
+  --cdm-theme-border-width-base: #{$cube--border-width-sm}; // 1px
+  --cdm-theme-border-width-bold: #{$cube--border-width-md}; // 2px
+  --cdm-theme-border-radius-sm: #{$cube--border-radius-sm}; // 2px
+  --cdm-theme-border-radius-base: #{$cube--border-radius-md}; // 4px
+  --cdm-theme-border-radius-lg: #{$cube--border-radius-lg}; // 8px
+  --cdm-theme-border-radius-max: #{$cube--border-radius-max}; // 999px
+  --cdm-theme-border-color-base: #{$cube--gray-2};
+  --cdm-theme-border-color-light: #{$cube--gray-1};
+  --cdm-theme-border-color-dark: #{$cube--gray-3};
+  --cdm-theme-border-color-disabled: #{$cube--gray-0};
+
+  /* Background 背景 */
+  --cdm-theme-bg-color-base: #f4f7fa; // 基础背景色
+  --cdm-theme-bg-color-base-active: #{$cube--blue-0}; // 基础背景色激活状态
+  --cdm-theme-bg-color-base-disabled: #{$cube--gray-0}; // 基础背景色禁用状态
+  --cdm-theme-bg-color-white: #{$cube-white}; // 白色背景
+  --cdm-theme-bg-color-white-active: #f7f8f9; // 白色背景激活状态
+  --cdm-theme-bg-color-white-disabled: #{$cube--gray-1}; // 白色背景禁用状态
+
+  /* Shadow 阴影 */
+  --cdm-theme-shadow-1-down: 0px 1px 2px -2px #{$cube--black-6}, 0px 5px 12px 4px #{$cube--black-9}; // 小阴影
+  --cdm-theme-shadow-2-down: 0px 1px 2px -2px #{$cube--black-6}, 0px 3px 6px 0px #{$cube--black-6}, 0px 5px 12px 4px #{$cube--black-7}; // 大阴影
+
+  /* Generic 通用 */
+  --cdm-theme-header-height: 52px; // 标题高度
+  --cdm-theme-header-font-size: var(--cdm-theme-font-size-subhead); // 标题字体大小
+  --cdm-theme-header-font-color: var(--cdm-theme-font-color-principal); // 标题字体颜色
+  --cdm-theme-close-icon-size: 20px; // 关闭图标大小
+  --cdm-theme-close-icon-color: var(--cdm-theme-font-color-tertiary); // 关闭图标颜色
+}

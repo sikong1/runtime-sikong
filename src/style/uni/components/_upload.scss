@@ -1,0 +1,15 @@
+page {
+  --cdm-upload-width: 76px; // 宽度
+  --cdm-upload-height: 76px; // 高度
+  --cdm-upload-margin-right: var(--cdm-theme-gap-md); // 右外边距
+  --cdm-upload-margin-bottom: 0; // 下外边距
+  --cdm-upload-border-width: var(--cdm-theme-border-width-base); // 边框宽度
+  --cdm-upload-border-radius: var(--cdm-theme-border-radius-base); // 边框圆角
+  --cdm-upload-border-color: var(--cdm-theme-color-primary); // 边框颜色
+  --cdm-upload-bg-color: var(--cdm-theme-bg-color-base); // 背景色
+  --cdm-upload-font-size: var(--cdm-theme-font-size-caption); // 字体大小
+  --cdm-upload-font-color: var(--cdm-theme-font-color-secondary); // 字体颜色
+  --cdm-upload-font-weight: var(--cdm-theme-font-weight-regular); // 字体字重
+  --cdm-upload-add-icon-size: 20px; // 图标大小
+  --cdm-upload-add-icon-color: var(--cdm-theme-font-color-secondary); // 图标颜色
+}

@@ -1,0 +1,20 @@
+page {
+  --cdm-search-bar-height: 36px; // 高度
+  --cdm-search-bar-padding-vertical: var(--cdm-theme-gap-sm); // 左右内边距
+  --cdm-search-bar-border-width: var(--cdm-theme-border-width-base); // 边框宽度
+  --cdm-search-bar-border-color: transparent; // 边框颜色
+  --cdm-search-bar-border-radius: var(--cdm-theme-border-radius-base); // 边框圆角
+  --cdm-search-bar-bg-color: var(--cdm-theme-bg-color-base); // 背景色
+  --cdm-search-bar-icon-margin: var(--cdm-theme-icon-margin); // 图标和文字间距
+  --cdm-search-bar-icon-size: var(--cdm-theme-font-size-subhead); // 图标大小
+  --cdm-search-bar-icon-color: var(--cdm-theme-font-color-secondary); // 图标颜色
+  --cdm-search-bar-shadow: none; // 阴影
+  --cdm-search-bar-font-color: var(--cdm-theme-font-color-principal); // 输入框字体颜色
+  --cdm-search-bar-placeholder-font-color: var(--cdm-theme-font-color-tertiary); // 输入框占位符字体颜色
+  --cdm-search-bar-right-widget-min-width: 20px; // 右侧控件最小宽度
+  --cdm-search-bar-focus-font-color: var(--cdm-theme-font-color-principal); // 输入框聚焦状态字体颜色
+  --cdm-search-bar-disabled-bg-color: var(--cdm-theme-bg-color-base-disabled); // 禁用状态背景色
+  --cdm-search-bar-disabled-border-color: var(--cdm-theme-border-color-disabled); // 禁用状态边框颜色
+  --cdm-search-bar-disabled-font-color: var(--cdm-theme-font-color-disabled); // 禁用状态字体颜色
+  --cdm-search-bar-disabled-icon-color: var(--cdm-theme-font-color-disabled); // 禁用状态图标颜色
+}

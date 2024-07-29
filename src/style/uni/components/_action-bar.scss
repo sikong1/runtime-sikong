@@ -1,0 +1,10 @@
+page {
+  --cdm-action-bar-height: 58px; // 高度
+  --cdm-action-bar-padding-vertical: var(--cdm-theme-spacing-16); // 左右内边距
+  --cdm-action-bar-border-width: var(--cdm-theme-border-width-base); // 边框宽度
+  --cdm-action-bar-border-radius: 0; // 边框圆角
+  --cdm-action-bar-border-color: transparent; // 边框颜色
+  --cdm-action-bar-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-action-bar-shadow: none; // 阴影
+  --cdm-action-bar-button-margin: var(--cdm-theme-gap-sm); // 按钮间距
+}

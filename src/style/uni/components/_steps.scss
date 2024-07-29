@@ -1,0 +1,29 @@
+page {
+  --cdm-steps-padding-vertical: var(--cdm-theme-spacing-8); // 左右内边距
+  --cdm-steps-padding-horizontal: var(--cdm-theme-spacing-8); // 上下内边距
+  --cdm-steps-line-margin: var(--cdm-theme-gap-sm); // 线条左右外边距
+  --cdm-steps-line-width: var(--cdm-theme-border-width-base); // 线条宽度
+  --cdm-steps-line-color: var(--cdm-theme-border-color-base); // 未完成状态线条颜色
+  --cdm-steps-title-margin-top: var(--cdm-theme-stacking-sm); // 标题和图标间距
+  --cdm-steps-title-font-size: var(--cdm-theme-font-size-body); // 标题字体大小
+  --cdm-steps-title-font-color: var(--cdm-theme-font-color-secondary); // 标题字体颜色
+  --cdm-steps-title-font-weight: var(--cdm-theme-font-weight-regular); // 标题字体字重
+  --cdm-steps-description-margin-top: var(--cdm-theme-stacking-xs); // 描述信息上外边距
+  --cdm-steps-description-font-size: var(--cdm-theme-font-size-caption); // 描述信息字体大小
+  --cdm-steps-description-font-color: var(--cdm-theme-font-color-secondary); // 描述信息字体颜色
+  --cdm-steps-icon-size: var(--cdm-theme-font-size-subhead); // 图标大小
+  --cdm-steps-icon-color: var(--cdm-theme-font-color-quaternary); // 未完成状态图标颜色
+  --cdm-steps-dot-size: 8px; // 点类型大小
+  --cdm-steps-finished-line-color: var(--cdm-theme-color-primary); // 完成状态线条颜色
+  --cdm-steps-finished-title-color: var(--cdm-theme-font-color-principal); // 完成状态标题字体颜色
+  --cdm-steps-finished-description-color: var(--cdm-theme-font-color-secondary); // 完成状态描述信息字体颜色
+  --cdm-steps-finished-icon-color: var(--cdm-theme-color-primary); // 完成状态图标颜色
+  --cdm-steps-active-line-color: var(--cdm-theme-color-primary); // 激活状态线条颜色
+  --cdm-steps-active-title-color: var(--cdm-theme-color-primary); // 激活状态标题字体颜色
+  --cdm-steps-active-description-color: var(--cdm-theme-color-primary); // 激活状态描述信息字体颜色
+  --cdm-steps-active-icon-color: var(--cdm-theme-color-primary); // 激活状态图标颜色
+  --cdm-steps-error-line-color: var(--cdm-theme-color-danger); // 异常状态线条颜色
+  --cdm-steps-error-title-color: var(--cdm-theme-color-danger); // 异常状态标题字体颜色
+  --cdm-steps-error-description-color: var(--cdm-theme-color-danger); // 异常状态描述信息字体颜色
+  --cdm-steps-error-icon-color: var(--cdm-theme-color-danger); // 异常状态图标颜色
+}

@@ -1,0 +1,7 @@
+page {
+  --cdm-rate-icon-gap: var(--cdm-theme-gap-xs); // 图标间距
+  --cdm-rate-icon-size: 24px; // 图标大小
+  --cdm-rate-icon-color: var(--cdm-theme-font-color-tertiary); // 图标未选中状态颜色
+  --cdm-rate-icon-active-color: var(--cdm-theme-color-danger); // 图标选中状态颜色
+  --cdm-rate-icon-disabled-color: var(--cdm-theme-font-color-disabled); // 图标禁用状态颜色
+}

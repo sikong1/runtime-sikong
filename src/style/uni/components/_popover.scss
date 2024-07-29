@@ -1,0 +1,36 @@
+page {
+  --cdm-popover-border-radius: var(--cdm-theme-border-radius-base); // 边框圆角
+  --cdm-popover-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-popover-shadow: var(--cdm-theme-shadow-2-down); // 阴影
+  --cdm-popover-min-width: 100px; // 最小宽度
+  --cdm-popover-arrow-size: 12px; // 气泡箭头尺寸
+  --cdm-popover-item-padding-vertical: var(--cdm-theme-spacing-16); // 选项左右内边距
+  --cdm-popover-item-padding-horizontal: var(--cdm-theme-spacing-16); // 选项上下内边距
+  --cdm-popover-item-border-width: var(--cdm-theme-border-width-base); // 选项分隔线宽度
+  --cdm-popover-item-border-color: var(--cdm-theme-border-color-light); // 选项分隔线颜色
+  --cdm-popover-item-bg-color: var(--cdm-theme-bg-color-white); // 选项背景色
+  --cdm-popover-item-font-size: var(--cdm-theme-font-size-subhead); // 选项字体大小
+  --cdm-popover-item-font-color: var(--cdm-theme-font-color-principal); // 选项字体颜色
+  --cdm-popover-item-font-weight: var(--cdm-theme-font-weight-regular); // 选项字体字重
+  --cdm-popover-item-font-line-height: var(--cdm-theme-font-line-height-subhead); // 选项字体行高
+  --cdm-popover-item-icon-margin: var(--cdm-theme-icon-margin); // 选项图标和文字的间距
+  --cdm-popover-item-icon-size: var(--cdm-theme-font-size-h6); // 选项图标大小
+  --cdm-popover-item-icon-color: var(--cdm-theme-color-primary); // 选项图标颜色
+  --cdm-popover-item-active-bg-color: #{$cube--blue-0}; // 选项激活状态背景色
+  --cdm-popover-item-active-font-color: var(--cdm-theme-font-color-principal); // 选项激活状态字体颜色
+  --cdm-popover-item-active-icon-color: var(--cdm-theme-color-primary-active); // 选项激活状态图标颜色
+  --cdm-popover-item-disabled-bg-color: var(--cdm-theme-bg-color-white); // 选项禁用状态背景色
+  --cdm-popover-item-disabled-font-color: #{$cube--gray-2}; // 选项禁用状态字体颜色
+  --cdm-popover-item-disabled-icon-color: #{$cube--gray-2}; // 选项禁用状态图标颜色
+  --cdm-popover-dark-bg-color: #{$cube--black-0}; // 深色模式背景色
+  --cdm-popover-dark-item-border-color: var(--cdm-theme-border-color-light); // 深色模式选项分隔线颜色
+  --cdm-popover-dark-item-bg-color: #{$cube--black-3}; // 深色模式选项背景色
+  --cdm-popover-dark-item-font-color: #{$cube-white}; // 深色模式选项字体颜色
+  --cdm-popover-dark-item-icon-color: #{$cube-white}; // 深色模式选项图标颜色
+  --cdm-popover-dark-item-active-bg-color: #{$cube--gray-3}; // 深色模式选项激活状态背景色
+  --cdm-popover-dark-item-active-font-color: #{$cube--gray-8}; // 深色模式选项激活状态字体颜色
+  --cdm-popover-dark-item-active-icon-color: #{$cube--gray-8}; // 深色模式选项激活状态图标颜色
+  --cdm-popover-dark-item-disabled-bg-color: #{$cube--gray-6}; // 深色模式禁用状态背景色
+  --cdm-popover-dark-item-disabled-font-color: #{$cube--gray-8}; // 深色模式禁用状态字体颜色
+  --cdm-popover-dark-item-disabled-icon-color: #{$cube--gray-8}; // 深色模式禁用状态图标颜色
+}

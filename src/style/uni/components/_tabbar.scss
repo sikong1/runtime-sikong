@@ -1,0 +1,15 @@
+page {
+  --cdm-tabbar-height: 50px; // 高度
+  --cdm-tabbar-border-top-width: var(--cdm-theme-border-width-base); // 上边框宽度
+  --cdm-tabbar-border-color: var(--cdm-theme-border-color-light); // 上边框颜色
+  --cdm-tabbar-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-tabbar-shadow: none; // 阴影
+  --cdm-tabbar-font-size: var(--cdm-theme-font-size-caption); // 字体大小
+  --cdm-tabbar-font-color: var(--cdm-theme-font-color-secondary); // 字体颜色
+  --cdm-tabbar-font-weight: var(--cdm-theme-font-weight-regular); // 字体字重
+  --cdm-tabbar-icon-margin: var(--cdm-theme-icon-margin); // 图标文字间距
+  --cdm-tabbar-icon-size: 22px; // 图标大小
+  --cdm-tabbar-icon-color: var(--cdm-theme-font-color-secondary); // 图标颜色
+  --cdm-tabbar-active-font-color: var(--cdm-theme-color-primary); // 激活状态字体颜色
+  --cdm-tabbar-active-icon-color: var(--cdm-theme-color-primary); // 激活状态图标颜色
+}

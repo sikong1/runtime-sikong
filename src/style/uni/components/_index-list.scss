@@ -1,0 +1,39 @@
+page {
+  --cdm-index-list-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-index-list-index-margin: var(--cdm-theme-gap-base); // 索引列表距离边框的间距
+  --cdm-index-list-index-padding: var(--cdm-theme-spacing-4); // 索引列表内边距
+  --cdm-index-list-index-border-width: var(--cdm-theme-border-width-base); // 索引列表边框宽度
+  --cdm-index-list-index-border-radius: var(--cdm-theme-border-radius-base); // 索引列表边框圆角
+  --cdm-index-list-index-border-color: transparent; // 索引列表边框颜色
+  --cdm-index-list-index-bg-color: transparent; // 索引列表背景色
+  --cdm-index-list-index-item-size: 18px; // 单个索引大小
+  --cdm-index-list-index-item-border-width: var(--cdm-theme-border-width-base); // 单个索引边框宽度
+  --cdm-index-list-index-item-border-radius: var(--cdm-theme-border-radius-max); // 单个索引边框圆角
+  --cdm-index-list-index-item-border-color: transparent; // 索引列表边框颜色
+  --cdm-index-list-index-item-font-size: var(--cdm-theme-font-size-caption); // 单个索引字体大小
+  --cdm-index-list-index-item-font-color: var(--cdm-theme-font-color-tertiary); // 单个索引字体颜色
+  --cdm-index-list-index-item-font-weight: var(--cdm-theme-font-weight-regular); // 单个索引字体字重
+  --cdm-index-list-index-item-bg-color: transparent; // 单个索引背景色
+  --cdm-index-list-index-item-active-border-color: var(--cdm-theme-color-primary); // 单个索引激活状态边框颜色
+  --cdm-index-list-index-item-active-bg-color: var(--cdm-theme-color-primary); // 单个索引激活状态背景色
+  --cdm-index-list-index-item-active-font-color: #{$cube-white}; // 单个索引激活状态字体颜色
+  --cdm-index-list-index-highlight-width: 56px; // 索引高亮提示宽度
+  --cdm-index-list-index-highlight-height: 56px; // 索引高亮提示高度
+  --cdm-index-list-index-highlight-margin: 80px; // 索引高亮提示和索引列表的间距
+  --cdm-index-list-index-highlight-border-width: var(--cdm-theme-border-width-base); // 索引高亮提示的边框宽度
+  --cdm-index-list-index-highlight-border-radius: var(--cdm-theme-border-radius-max); // 索引高亮提示的边框圆角
+  --cdm-index-list-index-highlight-border-color: transparent; // 索引高亮提示的边框颜色
+  --cdm-index-list-index-highlight-bg-color: #{$cube--blue-0}; // 索引高亮提示背景颜色
+  --cdm-index-list-index-highlight-font-size: var(--cdm-theme-font-size-h5); //索引高亮提示字体大小
+  --cdm-index-list-index-highlight-font-color: var(--cdm-theme-color-primary); // 索引高亮提示字体颜色
+  --cdm-index-list-index-highlight-font-weight: var(--cdm-theme-font-weight-bold); // 索引高亮提示字体字重
+  --cdm-index-list-anchor-height: 30px; // 锚点标题高度
+  --cdm-index-list-anchor-padding-vertical: var(--cdm-theme-spacing-16); // 锚点标题左右内边距
+  --cdm-index-list-anchor-border-width: 0; //  锚点标题边框宽度
+  --cdm-index-list-anchor-border-radius: 0; //  锚点标题边框圆角
+  --cdm-index-list-anchor-border-color: transparent; //  锚点标题边框颜色
+  --cdm-index-list-anchor-bg-color: var(--cdm-theme-bg-color-base); // 锚点标题背景色
+  --cdm-index-list-anchor-font-size: var(--cdm-theme-font-size-body); // 锚点标题字体大小
+  --cdm-index-list-anchor-font-color: var(--cdm-theme-color-primary); // 锚点标题字体颜色
+  --cdm-index-list-anchor-font-weight: var(--cdm-theme-font-weight-bold); // 锚点标题字体字重
+}

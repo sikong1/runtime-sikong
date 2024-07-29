@@ -1,0 +1,14 @@
+page {
+  --cdm-toast-min-width: 140px; // 最小宽度
+  --cdm-toast-max-width: 220px; // 最大宽度
+  --cdm-toast-padding-vertical: var(--cdm-theme-spacing-16); // 左右内边距
+  --cdm-toast-padding-horizontal: var(--cdm-theme-spacing-16); // 上下内边距
+  --cdm-toast-border-radius: var(--cdm-theme-border-radius-base); // 边框圆角
+  --cdm-toast-bg-color: #{$cube--black-2}; // 背景色
+  --cdm-toast-font-size: var(--cdm-theme-font-size-subhead); // 字体大小
+  --cdm-toast-font-color: var(--cdm-theme-color-white); // 字体颜色
+  --cdm-toast-icon-margin: var(--cdm-theme-icon-margin); // 图标外边距
+  --cdm-toast-icon-size: 28px; // 图标大小
+  --cdm-toast-icon-color: var(--cdm-theme-color-white); // 图标颜色
+  --cdm-toast-line-clamp: 5; // 显示的最多行数
+}

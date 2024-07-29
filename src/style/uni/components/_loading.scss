@@ -1,0 +1,10 @@
+page {
+  --cdm-loading-font-size: var(--cdm-theme-font-size-body); // 字体大小
+  --cdm-loading-font-color: var(--cdm-theme-font-color-tertiary); // 字体颜色
+  --cdm-loading-icon-size: var(--cdm-theme-font-size-subhead); // 图标大小
+  --cdm-loading-icon-color: #{$cube--gray-3}; // 图标颜色
+  --cdm-loading-icon-circle-active-color: #{$cube--gray-6}; // 圆形图标高亮部分颜色
+  --cdm-loading-image-size: 40px; // 自定义图片大小
+  --cdm-loading-text-margin-left: var(--cdm-theme-gap-xs); // 水平模式下文本和图标间距
+  --cdm-loading-text-margin-top: var(--cdm-theme-stacking-xs); // 垂直模式下文本和图标间距
+}

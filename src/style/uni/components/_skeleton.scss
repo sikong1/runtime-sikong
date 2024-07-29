@@ -1,0 +1,23 @@
+page {
+  --cdm-skeleton-title-width: 35%; // 标题宽度
+  --cdm-skeleton-title-height: 20px; // 标题高度
+  --cdm-skeleton-title-margin-bottom: var(--cdm-theme-stacking-base); // 标题下外边距
+  --cdm-skeleton-title-border-radius: var(--cdm-theme-border-radius-base); // 标题边框圆角
+  --cdm-skeleton-title-bg-color: linear-gradient(90deg, #e5effc 25%, #dbe8f2 37%, #e5effc 50%); // 标题背景色
+  --cdm-skeleton-row-width: 100%; // 段落行宽度
+  --cdm-skeleton-row-height: 16px; // 段落行高度
+  --cdm-skeleton-row-gap: var(--cdm-theme-stacking-md); // 段落下外边距
+  --cdm-skeleton-row-border-radius: var(--cdm-theme-border-radius-base); // 段落边框圆角
+  --cdm-skeleton-row-bg-color: linear-gradient(90deg, #f1f6fd 25%, #dbe8f2 37%, #f1f6fd 50%); // 段落背景色
+  --cdm-skeleton-avatar-large-width: 86px; // 大型尺寸头像宽度
+  --cdm-skeleton-avatar-large-height: 86px; // 大型尺寸头像高度
+  --cdm-skeleton-avatar-medium-width: 56px; // 中等尺寸头像宽度
+  --cdm-skeleton-avatar-medium-height: 56px; // 中等尺寸头像高度
+  --cdm-skeleton-avatar-small-width: 48px; // 小型尺寸头像宽度
+  --cdm-skeleton-avatar-small-height: 48px; // 小型尺寸头像高度
+  --cdm-skeleton-avatar-mini-width: 32px; // 迷你尺寸头像宽度
+  --cdm-skeleton-avatar-mini-height: 32px; // 迷你尺寸头像高度
+  --cdm-skeleton-avatar-margin-right: var(--cdm-theme-gap-base); // 头像右外边距
+  --cdm-skeleton-avatar-border-radius: var(--cdm-theme-border-radius-base); // 方形头像边框圆角
+  --cdm-skeleton-avatar-bg-color: linear-gradient(90deg, #e5effc 25%, #dbe8f2 37%, #e5effc 50%); // 头像背景色
+}

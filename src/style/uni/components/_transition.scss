@@ -1,0 +1,6 @@
+page {
+  --cdm-transtion-timing-function-standard: cubic-bezier(0.2, 0, 0.38, 0.9); // 标准动画效果
+  --cdm-transtion-timing-function-in: cubic-bezier(0, 0, 0.38, 0.9); // 出现动画效果
+  --cdm-transtion-timing-function-out: cubic-bezier(0.2, 0, 1, 0.9); // 消失动画效果
+  --cdm-transition-zoom-scale: scale(0.85); // 缩放动画倍数
+}

@@ -1,0 +1,28 @@
+page {
+  --cdm-search-list-padding-vertical: var(--cdm-theme-spacing-16); // 左右内边距
+  --cdm-search-list-padding-horizontal: 0; // 上下内边距
+  --cdm-search-list-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-search-list-header-height: var(--cdm-theme-header-height); // 顶部高度
+  --cdm-search-list-header-font-size: var(--cdm-theme-header-font-size); // 顶部字体大小
+  --cdm-search-list-header-font-color: var(--cdm-theme-header-font-color); // 顶部字体颜色
+  --cdm-search-list-header-font-weight: var(--cdm-theme-font-weight-bold); // 顶部字体字重
+  --cdm-search-list-header-icon-size: var(--cdm-theme-close-icon-size); // 顶部图标大小
+  --cdm-search-list-header-icon-color: var(--cdm-theme-close-icon-color); // 顶部图标颜色
+  --cdm-search-list-history-padding-horizontal: var(--cdm-theme-spacing-16); // 搜索历史上下内边距
+  --cdm-search-list-history-font-size: var(--cdm-theme-font-size-body); // 搜索历史字体大小
+  --cdm-search-list-history-font-color: var(--cdm-theme-font-color-secondary); // 搜索历史字体颜色
+  --cdm-search-list-history-font-weight: var(--cdm-theme-font-weight-regular); // 搜索历史字体字重
+  --cdm-search-list-history-icon-size: 20px; // 搜索历史清除图标大小
+  --cdm-search-list-history-icon-color: var(--cdm-theme-font-color-tertiary); // 搜索历史清除图标颜色
+  --cdm-search-list-history-items-margin-top: var(--cdm-theme-stacking-sm); // 搜索历史记录上外边距
+  --cdm-search-list-history-items-gap: var(--cdm-theme-gap-sm); // 搜索历史记录间距
+  --cdm-search-list-item-padding-horizontal: var(--cdm-theme-spacing-8); // 列表项上下内边距
+  --cdm-search-list-item-border-width: var(--cdm-theme-border-width-base); // 列表项分隔线宽度
+  --cdm-search-list-item-border-color: var(--cdm-theme-border-color-base); // 列表项分隔线颜色
+  --cdm-search-list-item-bg-color: var(--cdm-theme-color-white); // 列表项背景色
+  --cdm-search-list-item-font-size: var(--cdm-theme-font-size-body); // 列表项字体大小
+  --cdm-search-list-item-font-color: var(--cdm-theme-font-color-principal); // 列表项字体颜色
+  --cdm-search-list-item-selected-font-color: var(--cdm-theme-color-primary); // 列表项选中字体颜色
+  --cdm-search-list-item-selected-icon-size: 20px; // 列表项选中图标大小
+  --cdm-search-list-item-selected-icon-color: var(--cdm-theme-color-primary); // 列表项选中图标颜色
+}

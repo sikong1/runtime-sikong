@@ -1,0 +1,20 @@
+page {
+  --cdm-select-picker-padding-vertical: var(--cdm-theme-spacing-16); // 左右内边距
+  --cdm-select-picker-padding-horizontal: var(--cdm-theme-spacing-16); // 上下内边距
+  --cdm-select-picker-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-select-picker-header-padding-vertical: var(--cdm-theme-spacing-16); // 标题左右内边距
+  --cdm-select-picker-header-font-size: var(--cdm-theme-font-size-subhead); // 标题字体大小
+  --cdm-select-picker-header-font-color: var(--cdm-theme-font-color-principal); // 标题字体颜色
+  --cdm-select-picker-header-font-weight: var(--cdm-theme-font-weight-bold); // 标题字体字重
+  --cdm-select-picker-header-icon-size: var(--cdm-theme-close-icon-size); // 标题图标大小
+  --cdm-select-picker-header-icon-color: var(--cdm-theme-close-icon-color); // 标题图标颜色
+  --cdm-select-picker-search-margin-horizontal: var(--cdm-theme-stacking-md); // 搜索历史上下内边距
+  --cdm-select-picker-item-padding-horizontal: var(--cdm-theme-stacking-md); // 列表项上下内边距
+  --cdm-select-picker-item-border-width: 0; // 列表项分隔线宽度
+  --cdm-select-picker-item-border-color: var(--cdm-theme-border-color-light); // 列表项分隔线颜色
+  --cdm-select-picker-item-font-size: var(--cdm-theme-font-size-body); // 列表项字体大小
+  --cdm-select-picker-item-font-color: var(--cdm-theme-font-color-principal); // 列表项字体颜色
+  --cdm-select-picker-item-selected-font-color: var(--cdm-theme-color-primary); // 列表项选中状态字体颜色
+  --cdm-select-picker-item-selected-icon-size: var(--cdm-theme-font-size-headline); // 列表项选中状态图标大小
+  --cdm-select-picker-item-disabled-font-color: var(--cdm-theme-font-color-disabled); // 列表项禁用字体颜色
+}

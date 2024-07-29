@@ -1,0 +1,7 @@
+page {
+  --cdm-popup-border-radius: var(--cdm-theme-border-radius-lg); // 边框圆角
+  --cdm-popup-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-popup-icon-margin: var(--cdm-theme-spacing-16); // 关闭图标距离边框的距离
+  --cdm-popup-close-icon-size: var(--cdm-theme-close-icon-size); // 关闭图标大小
+  --cdm-popup-close-icon-color: var(--cdm-theme-close-icon-color); // 关闭图标颜色
+}

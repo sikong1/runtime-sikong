@@ -1,0 +1,29 @@
+page {
+  --cdm-notify-height: 40px; // 高度
+  --cdm-notify-margin-vertical: var(--cdm-theme-spacing-16); // 左右外边距
+  --cdm-notify-padding-vertical: var(--cdm-theme-spacing-8); // 左右内边距
+  --cdm-notify-border-width: var(--cdm-theme-border-width-base); // 边框宽度
+  --cdm-notify-border-radius: var(--cdm-theme-border-radius-base); // 边框圆角
+  --cdm-notify-border-color: transparent; // 边框颜色
+  --cdm-notify-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-notify-font-size: var(--cdm-theme-font-size-body); // 字体大小
+  --cdm-notify-font-color: var(--cdm-theme-font-color-principal); // 字体颜色
+  --cdm-notify-shadow: var(--cdm-theme-shadow-2-down); // 阴影
+  --cdm-notify-icon-margin: var(--cdm-theme-icon-margin); // 图标和文字间距
+  --cdm-notify-prefix-icon-size: var(--cdm-theme-font-size-subhead); // 前置图标大小
+  --cdm-notify-prefix-icon-color: var(--cdm-theme-font-color-principal); // 前置图标颜色
+  --cdm-notify-close-icon-size: var(--cdm-theme-close-icon-size); // 关闭图标大小
+  --cdm-notify-close-icon-color: var(--cdm-theme-close-icon-color); // 关闭图标颜色
+  --cdm-notify-primary-bg-color: var(--cdm-theme-bg-color-white); // 主要通知背景色
+  --cdm-notify-primary-font-color: var(--cdm-theme-font-color-principal); // 主要通知字体颜色
+  --cdm-notify-primary-prefix-icon-color: var(--cdm-theme-color-primary); // 主要通知前置图标颜色
+  --cdm-notify-success-bg-color: var(--cdm-theme-bg-color-white); // 成功通知背景色
+  --cdm-notify-success-font-color: var(--cdm-theme-font-color-principal); // 成功通知字体颜色
+  --cdm-notify-success-prefix-icon-color: var(--cdm-theme-color-success); // 成功通知前置图标颜色
+  --cdm-notify-warning-bg-color: var(--cdm-theme-bg-color-white); // 警告通知背景色
+  --cdm-notify-warning-font-color: var(--cdm-theme-font-color-principal); // 警告通知字体颜色
+  --cdm-notify-warning-prefix-icon-color: var(--cdm-theme-color-warning); // 警告通知前置图标颜色
+  --cdm-notify-error-bg-color: var(--cdm-theme-bg-color-white); // 危险通知背景色
+  --cdm-notify-error-font-color: var(--cdm-theme-font-color-principal); // 危险通知字体颜色
+  --cdm-notify-error-prefix-icon-color: var(--cdm-theme-color-danger); // 危险通知前置图标颜色
+}

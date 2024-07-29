@@ -1,0 +1,18 @@
+page {
+  --cdm-result-padding-vertical: var(--cdm-theme-spacing-16); // 左右内边距
+  --cdm-result-padding-horizontal: var(--cdm-theme-spacing-16); // 上下内边距
+  --cdm-result-border-width: var(--cdm-theme-border-width-base); // 边框宽度
+  --cdm-result-border-radius: var(--cdm-theme-border-radius-base); // 边框圆角
+  --cdm-result-border-color: transparent; // 边框颜色
+  --cdm-result-bg-color: transparent; // 背景色
+  --cdm-result-title-margin: var(--cdm-theme-stacking-base); // 标题上外边距
+  --cdm-result-title-font-size: var(--cdm-theme-font-size-subhead); // 标题字体大小
+  --cdm-result-title-font-color: var(--cdm-theme-font-color-principal); // 标题字体颜色
+  --cdm-result-title-font-weight: var(--cdm-theme-font-weight-bold); // 标题字体字重
+  --cdm-result-description-margin: var(--cdm-theme-stacking-sm); // 描述文字上外边距
+  --cdm-result-description-font-size: var(--cdm-theme-font-size-body); // 描述文字字体大小
+  --cdm-result-description-font-color: var(--cdm-theme-font-color-secondary); // 描述文字字体颜色
+  --cdm-result-description-font-weight: var(--cdm-theme-font-weight-regular); // 描述文字字体字重
+  --cdm-result-icon-size: 150px; // 图标大小
+  --cdm-result-icon-color: var(--cdm-theme-color-primary); // 图标颜色
+}

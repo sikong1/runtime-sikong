@@ -1,0 +1,16 @@
+page {
+  --cdm-divider-margin-padding-vertical: 0; // 左右外边距
+  --cdm-divider-margin-horizontal: var(--cdm-theme-stacking-base); // 上下外边距
+  --cdm-divider-border-width: var(--cdm-theme-border-width-base); // 线条宽度
+  --cdm-divider-border-color: var(--cdm-theme-border-color-base); // 线条颜色
+  --cdm-divider-font-size: var(--cdm-theme-font-size-body); // 字体大小
+  --cdm-divider-font-color: var(--cdm-theme-font-color-secondary); // 字体颜色
+  --cdm-divider-icon-margin: var(--cdm-theme-icon-margin); // 图标和文字间距
+  --cdm-divider-icon-size: var(--cdm-theme-font-size-subhead); // 图标大小
+  --cdm-divider-icon-color: var(--cdm-theme-font-color-secondary); // 图标颜色
+  --cdm-divider-bold-border-width: var(--cdm-theme-border-width-bold); // 粗线宽度
+  --cdm-divider-slender-border-width: var(--cdm-theme-border-width-thin); // 细线宽度
+  --cdm-divider-text-margin: var(--cdm-theme-gap-base); // 文本左右外边距
+  --cdm-divider-vertical-column-gap: var(--cdm-theme-gap-base); // 垂直模式左右外边距
+  --cdm-divider-vertical-height: 16px; // 垂直模式高度
+}

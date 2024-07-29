@@ -1,0 +1,21 @@
+page {
+  --cdm-advanced-search-width: 80vw; // 侧向打开宽度
+  --cdm-advanced-search-max-height: 90vh; // 顶部打开高度
+  --cdm-advanced-search-padding-vertical: var(--cdm-theme-spacing-16); // 左右内边距
+  --cdm-advanced-search-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-advanced-search-shadow: none; // 阴影
+  --cdm-advanced-search-content-padding-horizontal: var(--cdm-theme-spacing-16); // 内容区上下内边距
+  --cdm-advanced-search-item-margin: var(--cdm-theme-stacking-xl); // 选项组垂直间距
+  --cdm-advanced-search-item-title-margin: var(--cdm-theme-stacking-sm); // 选项组标题下外边距
+  --cdm-advanced-search-item-title-font-size: var(--cdm-theme-font-size-body); // 选项组标题字体大小
+  --cdm-advanced-search-item-title-font-color: var(--cdm-theme-font-color-principal); // 选项组标题字体颜色
+  --cdm-advanced-search-item-title-font-weight: var(--cdm-theme-font-weight-bold); // 选项组标题字重
+  --cdm-advanced-search-item-title-icon-size: var(--cdm-theme-font-size-subhead); // 选项组标题图标大小
+  --cdm-advanced-search-item-title-icon-color: var(--cdm-theme-font-color-principal); // 选项组标题图标颜色
+  --cdm-advanced-search-item-datepicker-margin: var(--cdm-theme-gap-sm); // 日期范围类型的元素间距
+  --cdm-advanced-search-buttons-padding-horizontal: var(--cdm-theme-spacing-16); // 底部按钮上下内边距
+  --cdm-advanced-search-buttons-border-top-width: var(--cdm-theme-border-width-base); // 底部按钮上边框宽度
+  --cdm-advanced-search-buttons-border-color: var(--cdm-theme-border-color-base); // 底部按钮上边框颜色
+  --cdm-advanced-search-buttons-bg-color: var(--cdm-theme-bg-color-white); // 底部按钮背景色
+  --cdm-advanced-search-buttons-item-margin: var(--cdm-theme-gap-sm); // 底部按钮之间的间距
+}

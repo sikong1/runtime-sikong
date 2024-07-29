@@ -1,0 +1,54 @@
+{
+  "version": "0.0.1",
+  "name": "@tmagic/ui-sikong",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "types/index.d.ts",
+  "exports": {
+    "./*": "./*"
+  },
+  "files": [
+    "src",
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "build": "rimraf ./dist && npm run build:type && node scripts/build.mjs",
+    "build:type": "npm run clear:type && vue-tsc --declaration --emitDeclarationOnly --project tsconfig.build.json",
+    "clear:type": "rimraf ./types",
+    "check:type": "vue-tsc --noEmit --project tsconfig.build.json"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tencent/tmagic-editor.git"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.0"
+  },
+  "peerDependencies": {
+    "@tmagic/core": "workspace:*",
+    "@tmagic/schema": "workspace:*",
+    "@tmagic/utils": "workspace:*",
+    "@tmagic/vue-runtime-help": ">=0.0.7",
+    "typescript": "*",
+    "sass": "^1.77.0",
+    "vue": ">=3.4.27"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.4.2",
+    "@vue/compiler-sfc": "^3.4.27",
+    "rimraf": "^3.0.2",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.19",
+    "sass": "^1.77.0"
+  }
+}

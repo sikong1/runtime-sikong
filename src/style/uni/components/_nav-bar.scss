@@ -1,0 +1,20 @@
+page {
+  --cdm-navbar-padding-vertical: var(--cdm-theme-spacing-8); // 左右内边距
+  --cdm-navbar-border-bottom-width: var(--cdm-theme-border-width-base); // 下边框宽度
+  --cdm-navbar-border-color: transparent; // 下边框颜色
+  --cdm-navbar-bg-color: var(--cdm-theme-bg-color-white); // 背景色
+  --cdm-navbar-shadow: none; // 阴影
+  --cdm-navbar-title-font-size: var(--cdm-theme-font-size-subhead); // 标题字体大小
+  --cdm-navbar-title-font-color: var(--cdm-theme-font-color-principal); // 标题字体颜色
+  --cdm-navbar-title-font-weight: var(--cdm-theme-font-weight-regular); // 标题字体字重
+  --cdm-navbar-left-text-font-size: var(--cdm-theme-font-size-body); // 左侧字体大小
+  --cdm-navbar-left-text-font-color: var(--cdm-theme-font-color-principal); // 左侧字体颜色
+  --cdm-navbar-left-icon-margin: var(--cdm-theme-icon-margin); // 左侧图标和文字的间距
+  --cdm-navbar-left-icon-font-size: var(--cdm-theme-font-size-h6); // 左侧图标大小
+  --cdm-navbar-left-icon-font-color: var(--cdm-theme-font-color-principal); // 左侧图标颜色
+  --cdm-navbar-right-text-font-size: var(--cdm-theme-font-size-body); // 右侧字体大小
+  --cdm-navbar-right-text-font-color: var(--cdm-theme-font-color-principal); // 右侧字体颜色
+  --cdm-navbar-right-icon-margin: var(--cdm-theme-icon-margin); // 右侧图标和文字的间距
+  --cdm-navbar-right-icon-font-size: var(--cdm-theme-font-size-h6); // 右侧图标大小
+  --cdm-navbar-right-icon-font-color: var(--cdm-theme-font-color-principal); // 右侧图标颜色
+}
