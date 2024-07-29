@@ -20,6 +20,8 @@ import { createApp } from "vue"
 
 import Core from "@tmagic/core"
 import { DataSourceManager, DeepObservedData } from "@tmagic/data-source"
+import CubeDesignMobile from "@cndinfo/cube-design-mobile"
+import CubeDesignIcons from "@cndinfo/cube-design-icons-vue3"
 
 import App from "./App.vue"
 
@@ -62,6 +64,8 @@ Promise.all([
   window.appInstance = app
   vueApp.config.globalProperties.app = app
   vueApp.provide("app", app)
+  vueApp.use(CubeDesignMobile)
+  vueApp.use(CubeDesignIcons)
 
   vueApp.mount("#app")
 })
