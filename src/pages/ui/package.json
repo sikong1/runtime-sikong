@@ -20,6 +20,10 @@
     "type": "git",
     "url": "https://github.com/sikong1/runtime-sikong.git"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "qrcode": "^1.5.0"
   },
